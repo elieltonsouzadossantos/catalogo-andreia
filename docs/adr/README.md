@@ -41,3 +41,4 @@ foi decidido, mas por que uma decisão anterior deixou de fazer sentido.
 | 0002 | Hospedagem em Firebase Hosting | Aceito |
 | 0003 | Categoria e estação como campos separados (filtro facetado) | Aceito |
 | 0004 | Finalização de pedido via link wa.me, sem checkout próprio | Aceito |
+| 0005 | Adiar migração para SSR/SSG e separação de camadas até produção | Aceito |

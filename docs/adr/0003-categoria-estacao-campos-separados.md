@@ -32,3 +32,25 @@ Esse é o padrão de "filtro facetado" usado por Mercado Livre, Amazon, Shopify 
 - **Impactos:** ao migrar para Firestore (ver ADR-0001), o schema de produto deve
   preservar `cat` e `season` como campos distintos, e o painel admin deve oferecer
   ambos como campos de formulário separados, não como uma lista única de categorias.
+
+## Adendo (2026-08-07): categorias derivadas automaticamente dos produtos
+Complementando a decisão original: a lista de categorias exibida nos filtros
+(`categories`) não é escrita manualmente — é derivada em tempo real a partir dos
+produtos cadastrados:
+
+```js
+const categories = ["Todos", ...new Set(products.map(p=>p.cat))];
+```
+
+Isso segue o princípio de **Single Source of Truth** (fonte única de verdade): os
+produtos são a única fonte real de dado, e o filtro é só um reflexo automático dela,
+nunca uma lista mantida à parte. Na prática, isso significa que adicionar uma
+categoria nova (ex: "Cueca") exige uma única edição — cadastrar o produto com o
+campo `cat` correspondente — e o filtro correspondente aparece sozinho na interface,
+sem risco de esquecer de atualizá-lo em um segundo lugar. Da mesma forma, uma
+categoria sem nenhum produto cadastrado desaparece sozinha do filtro, evitando
+filtros "fantasma" apontando para grades vazias.
+
+Esse mesmo princípio deve ser considerado ao adicionar outros atributos derivados
+no futuro (ex: lista de cores ou tamanhos disponíveis), mantendo sempre os produtos
+como a fonte única de verdade do sistema.
