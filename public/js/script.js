@@ -1,6 +1,3 @@
-import { db } from "../firebase-config.js";
-import { collection, getDocs, doc, getDoc } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
-
 /* ---------------- CONFIG (ajustar com dados reais da cliente) ---------------- */
 const WHATSAPP_NUMBER = "5567996426620"; // Andreia Pateis
 const STORE_ADDRESS_QUERY = "Rua Nicolau Ritter, 968, Jardim Novo, Eldorado, MS, 79970-000"; // Andreia Pateis
@@ -92,29 +89,44 @@ function renderUSPSection(){
   `).join('')}</div>`;
 }
 
-/* ---------------- DADOS (Firestore) ---------------- */
-// A paleta de cores e o catálogo de produtos agora vêm do Firestore.
-// COLORS, products e categories começam vazios e são populados por carregarDados()
-// assim que o app carrega — o array fixo antigo saiu daqui.
-let COLORS = {};
+/* ---------------- DADOS (JSON local) ---------------- */
+// A paleta de cores é fixa (não muda com frequência, então fica direto no código).
+// products e categories começam vazios e são populados por carregarDados(),
+// que busca o arquivo estático produtos.json publicado junto com o site.
+const COLORS = {
+  preto:"#1c1c1c", nude:"#d9b48f", vinho:"#5c1f2a", branco:"#efe9df",
+  vermelho:"#c81238", azul:"#1a2340", rosa:"#d98fb0", marrom:"#3b241a",
+  champagne:"#e6c79c", cinza:"#6b6b6b"
+};
 let products = [];
 let categories = ["Todos"];
 
 async function carregarDados(){
   try {
-    // Paleta de cores: coleção "config", documento "colors"
-    const coresSnap = await getDoc(doc(db, "config", "colors"));
-    if (coresSnap.exists()) COLORS = coresSnap.data();
+    const resposta = await fetch("/data/produtos/produtos.json");
+    if (!resposta.ok) throw new Error(`HTTP ${resposta.status}`);
+    const dados = await resposta.json();
 
-    // Produtos: coleção "produtos", um documento por peça
-    const produtosSnap = await getDocs(collection(db, "produtos"));
-    products = produtosSnap.docs
-      .map(d => d.data())
+    // O produtos.json usa nomes de campo em português (nome, preco, categoria...).
+    // Aqui a gente converte pro formato interno que o resto do script já espera
+    // (cat, name, price...), assim nada mais no arquivo precisa mudar.
+    products = dados
+      .map(p => ({
+        id: p.id,
+        cat: p.categoria,
+        name: p.nome,
+        price: p.preco,
+        featured: p.destaque,
+        colors: p.cores || [],
+        sizes: p.tamanhos || [],
+        desc: p.descricao,
+        img: p.imagem
+      }))
       .sort((a, b) => a.id - b.id);
 
     categories = ["Todos", ...new Set(products.map(p => p.cat))];
   } catch (err) {
-    console.error("Erro ao carregar dados do Firestore:", err);
+    console.error("Erro ao carregar produtos.json:", err);
     const grid = document.getElementById('grid');
     if (grid) grid.innerHTML = '<p style="padding:24px;text-align:center;opacity:.8">Não foi possível carregar o catálogo. Verifique sua conexão e recarregue a página.</p>';
   }
@@ -122,6 +134,8 @@ async function carregarDados(){
 
 // Inicia o carregamento assim que o script roda, em paralelo com a tela de capa.
 const dadosProntos = carregarDados();
+
+
 
 
 /* ---------------- ESTADO ---------------- */

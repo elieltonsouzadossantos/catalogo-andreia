@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "nome": "Conjunto Renda Paixão",
+    "preco": 139.9,
+    "descricao": "Conjunto em renda com alças reguláveis e acabamento delicado, sutiã e calcinha combinando.",
+    "categoria": "Conjunto",
+    "cores": [
+      "vermelho"
+    ],
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "imagem": "/images/conjunto-renda-paixao.jpg",
+    "destaque": true
+  },
+  {
+    "id": 10,
+    "nome": "Conjunto Flanela Aconchego",
+    "preco": 129.9,
+    "descricao": "Conjunto de manga longa em flanela macia, para os dias mais frios.",
+    "categoria": "Pijama",
+    "cores": [
+      "marrom",
+      "vinho"
+    ],
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "imagem": null,
+    "destaque": false
+  },
+  {
+    "id": 11,
+    "nome": "Robe Longo Soft",
+    "preco": 149.9,
+    "descricao": "Robe longo em fleece soft, quentinho e confortável para o inverno.",
+    "categoria": "Pijama",
+    "cores": [
+      "marrom",
+      "preto"
+    ],
+    "tamanhos": [
+      "P",
+      "M",
+      "G"
+    ],
+    "imagem": null,
+    "destaque": false
+  },
+  {
+    "id": 12,
+    "nome": "Cueca Boxer Premium",
+    "preco": 49.9,
+    "descricao": "Boxer em algodão com elastano, cós reforçado e costura reforçada para durabilidade.",
+    "categoria": "Cueca",
+    "cores": [
+      "preto",
+      "branco",
+      "azul"
+    ],
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "imagem": null,
+    "destaque": false
+  },
+  {
+    "id": 13,
+    "nome": "Cueca Slip Básica",
+    "preco": 29.9,
+    "descricao": "Slip em algodão macio, cós elástico confortável para uso diário.",
+    "categoria": "Cueca",
+    "cores": [
+      "preto",
+      "branco",
+      "cinza"
+    ],
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "imagem": null,
+    "destaque": false
+  },
+  {
+    "id": 14,
+    "nome": "Cueca Boxer Cotton Day",
+    "preco": 39.9,
+    "descricao": "Boxer em cotton respirável, ideal para o dia a dia com toque leve.",
+    "categoria": "Cueca",
+    "cores": [
+      "cinza",
+      "azul",
+      "preto"
+    ],
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "imagem": null,
+    "destaque": false
+  },
+  {
+    "id": 15,
+    "nome": "Meia Soquete Renda",
+    "preco": 19.9,
+    "descricao": "Meia soquete com barrado em renda, delicada e confortável.",
+    "categoria": "Meia",
+    "cores": [
+      "branco",
+      "nude",
+      "preto"
+    ],
+    "tamanhos": [
+      "Único"
+    ],
+    "imagem": null,
+    "destaque": false
+  },
+  {
+    "id": 16,
+    "nome": "Meia Cano Alto Cotton",
+    "preco": 24.9,
+    "descricao": "Meia cano alto em algodão macio, ideal para o dia a dia.",
+    "categoria": "Meia",
+    "cores": [
+      "branco",
+      "rosa",
+      "preto"
+    ],
+    "tamanhos": [
+      "Único"
+    ],
+    "imagem": null,
+    "destaque": false
+  },
+  {
+    "id": 17,
+    "nome": "Meia Cano Médio Esportiva",
+    "preco": 22.9,
+    "descricao": "Meia esportiva em algodão com reforço no calcanhar e biqueira.",
+    "categoria": "Meia",
+    "cores": [
+      "preto",
+      "branco",
+      "cinza"
+    ],
+    "tamanhos": [
+      "Único"
+    ],
+    "imagem": null,
+    "destaque": false
+  },
+  {
+    "id": 18,
+    "nome": "Meia Social Fio Egípcio",
+    "preco": 29.9,
+    "descricao": "Meia social de fio fino, toque macio e caimento discreto para o dia a dia.",
+    "categoria": "Meia",
+    "cores": [
+      "preto",
+      "azul",
+      "cinza"
+    ],
+    "tamanhos": [
+      "Único"
+    ],
+    "imagem": null,
+    "destaque": false
+  },
+  {
+    "id": 19,
+    "nome": "Camisola Cetim Aurora",
+    "preco": 119.9,
+    "descricao": "Cetim fluido com toque sedoso e alças finas ajustáveis, elegante para o dia a dia.",
+    "categoria": "Camisola",
+    "cores": [
+      "champagne",
+      "preto",
+      "branco"
+    ],
+    "tamanhos": [
+      "P",
+      "M",
+      "G"
+    ],
+    "imagem": null,
+    "destaque": false
+  },
+  {
+    "id": 2,
+    "nome": "Conjunto Renda Meia-Noite",
+    "preco": 139.9,
+    "descricao": "Renda azul-marinho com bojo leve e alças duplas, um clássico elegante para o dia a dia.",
+    "categoria": "Conjunto",
+    "cores": [
+      "azul"
+    ],
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "imagem": "/images/conjunto-renda-meia-noite.jpg",
+    "destaque": true
+  },
+  {
+    "id": 20,
+    "nome": "Camisola Renda Charme",
+    "preco": 129.9,
+    "descricao": "Camisola em viscose com decote em renda, caimento solto e confortável.",
+    "categoria": "Camisola",
+    "cores": [
+      "preto",
+      "vinho",
+      "nude"
+    ],
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "imagem": null,
+    "destaque": false
+  },
+  {
+    "id": 21,
+    "nome": "Camisola Alças Finas Essence",
+    "preco": 89.9,
+    "descricao": "Camisola básica em malha macia, alças finas reguláveis, ideal para o dia a dia.",
+    "categoria": "Camisola",
+    "cores": [
+      "nude",
+      "branco",
+      "rosa"
+    ],
+    "tamanhos": [
+      "P",
+      "M",
+      "G"
+    ],
+    "imagem": null,
+    "destaque": false
+  },
+  {
+    "id": 3,
+    "nome": "Conjunto Renda Doce Ilusão",
+    "preco": 149.9,
+    "descricao": "Tom rosa suave com renda floral e fecho regulável, romântico e confortável.",
+    "categoria": "Conjunto",
+    "cores": [
+      "rosa"
+    ],
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "imagem": "/images/conjunto-renda-doce-ilusao.jpg",
+    "destaque": true
+  },
+  {
+    "id": 4,
+    "nome": "Sutiã Push-up Nude Essence",
+    "preco": 79.9,
+    "descricao": "Bojo push-up em microfibra macia, discreto sob qualquer roupa.",
+    "categoria": "Sutiã",
+    "cores": [
+      "nude"
+    ],
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "imagem": "/images/sutia-push-up-nude-essence.jpg",
+    "destaque": false
+  },
+  {
+    "id": 5,
+    "nome": "Fio-Dental Cristal",
+    "preco": 29.9,
+    "descricao": "Fio-dental em renda com argola metalizada, disponível em três cores.",
+    "categoria": "Calcinha",
+    "cores": [
+      "branco",
+      "preto",
+      "vermelho"
+    ],
+    "tamanhos": [
+      "P",
+      "M",
+      "G"
+    ],
+    "imagem": "/images/fio-dental-cristal.jpg",
+    "destaque": false
+  },
+  {
+    "id": 6,
+    "nome": "Calcinha Renda Charme",
+    "preco": 34.9,
+    "descricao": "Calcinha em renda transparente com acabamento delicado, disponível em quatro cores.",
+    "categoria": "Calcinha",
+    "cores": [
+      "vermelho",
+      "preto",
+      "azul",
+      "branco"
+    ],
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "imagem": "/images/calcinha-renda-charme.jpg",
+    "destaque": false
+  },
+  {
+    "id": 7,
+    "nome": "Conjunto Liso Terracota",
+    "preco": 99.9,
+    "descricao": "Conjunto liso em microfibra na cor terracota, sutiã sem bojo e calcinha alta.",
+    "categoria": "Conjunto",
+    "cores": [
+      "marrom"
+    ],
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "imagem": "/images/conjunto-liso-terracota.jpg",
+    "destaque": true
+  },
+  {
+    "id": 8,
+    "nome": "Pijama Curto Alças Renda",
+    "preco": 89.9,
+    "descricao": "Conjunto curto em viscose leve com detalhes em renda, ideal para dias quentes.",
+    "categoria": "Pijama",
+    "cores": [
+      "nude",
+      "branco"
+    ],
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "imagem": null,
+    "destaque": false
+  },
+  {
+    "id": 9,
+    "nome": "Camisola Cetim Leve",
+    "preco": 99.9,
+    "descricao": "Camisola em cetim fluido, toque fresco e caimento solto.",
+    "categoria": "Pijama",
+    "cores": [
+      "champagne",
+      "preto"
+    ],
+    "tamanhos": [
+      "P",
+      "M",
+      "G"
+    ],
+    "imagem": null,
+    "destaque": false
+  }
+]
