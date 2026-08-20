@@ -107,22 +107,23 @@ async function carregarDados(){
     if (!resposta.ok) throw new Error(`HTTP ${resposta.status}`);
     const dados = await resposta.json();
 
-    // O produtos.json usa nomes de campo em português (nome, preco, categoria...).
-    // Aqui a gente converte pro formato interno que o resto do script já espera
-    // (cat, name, price...), assim nada mais no arquivo precisa mudar.
-    products = dados
-      .map(p => ({
-        id: p.id,
-        cat: p.categoria,
-        name: p.nome,
-        price: p.preco,
-        featured: p.destaque,
-        colors: p.cores || [],
-        sizes: p.tamanhos || [],
-        desc: p.descricao,
-        img: p.imagem
-      }))
-      .sort((a, b) => a.id - b.id);
+    // O produtos.json agora é editado pelo painel Decap CMS, que salva no formato
+    // { "produtos": [...] } (uma lista dentro de um objeto, não mais um array solto).
+    // O "id" de cada produto é gerado aqui, pela posição na lista — a Andreia nunca
+    // precisa pensar em número nenhum ao cadastrar um produto novo pelo painel.
+    // Os nomes de campo em português (nome, preco, categoria...) são convertidos
+    // pro formato interno que o resto do script já espera (cat, name, price...).
+    products = (dados.produtos || []).map((p, index) => ({
+      id: index,
+      cat: p.categoria,
+      name: p.nome,
+      price: p.preco,
+      featured: p.destaque,
+      colors: p.cores || [],
+      sizes: p.tamanhos || [],
+      desc: p.descricao,
+      img: p.imagem
+    }));
 
     categories = ["Todos", ...new Set(products.map(p => p.cat))];
   } catch (err) {

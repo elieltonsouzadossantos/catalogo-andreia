@@ -7,14 +7,54 @@ public_folder: "/images"
 
 collections:
   - name: "produtos"
-    label: "Produtos"
-    folder: "public/data/produtos"
-    create: true
-    slug: "{{nome}}"
-    fields:
-      - { label: "ID", name: "id", widget: "string" }
-      - { label: "Nome", name: "nome", widget: "string" }
-      - { label: "Preço", name: "preco", widget: "number", value_type: "float" }
-      - { label: "Descrição", name: "descricao", widget: "text" }
-      - { label: "Categoria", name: "categoria", widget: "select", options: ["Pastel Salgado", "Pastel Doce", "Bebida"] }
-      - { label: "Imagem", name: "imagem", widget: "image" }
+    label: "Catálogo de Produtos"
+    files:
+      - file: "public/data/produtos/produtos.json"
+        label: "Produtos"
+        name: "produtos"
+        fields:
+          - label: "Produtos"
+            name: "produtos"
+            widget: "list"
+            summary: "{{fields.nome}} — {{fields.categoria}}"
+            fields:
+              - { label: "Nome", name: "nome", widget: "string", required: true }
+              - { label: "Preço (R$)", name: "preco", widget: "number", value_type: "float", required: true }
+              - { label: "Descrição", name: "descricao", widget: "text", required: true }
+              - label: "Categoria"
+                name: "categoria"
+                widget: "select"
+                options: ["Conjunto", "Sutiã", "Calcinha", "Pijama", "Cueca", "Meia", "Camisola"]
+                required: true
+              - label: "Cores disponíveis"
+                name: "cores"
+                widget: "select"
+                multiple: true
+                required: false
+                options:
+                  - { label: "Preto", value: "preto" }
+                  - { label: "Nude", value: "nude" }
+                  - { label: "Vinho", value: "vinho" }
+                  - { label: "Branco", value: "branco" }
+                  - { label: "Vermelho", value: "vermelho" }
+                  - { label: "Azul", value: "azul" }
+                  - { label: "Rosa", value: "rosa" }
+                  - { label: "Marrom", value: "marrom" }
+                  - { label: "Champagne", value: "champagne" }
+                  - { label: "Cinza", value: "cinza" }
+              - label: "Tamanhos disponíveis"
+                name: "tamanhos"
+                widget: "select"
+                multiple: true
+                required: false
+                options: ["PP", "P", "M", "G", "GG", "Único"]
+              - label: "Foto do produto"
+                name: "imagem"
+                widget: "image"
+                required: false
+                hint: "Se deixar em branco, o site mostra um ícone de roupa no lugar da foto."
+              - label: "Produto em destaque?"
+                name: "destaque"
+                widget: "boolean"
+                default: false
+                hint: "Produtos em destaque aparecem no carrossel da tela inicial (só funciona se também tiver foto)."
