@@ -1,6 +1,34 @@
+# Use DecapBridge PKCE auth (required)
 backend:
   name: git-gateway
+  repo: elieltonsouzadossantos/catalogo-andreia
   branch: main
+  auth_type: pkce
+  base_url: https://auth.decapbridge.com
+  auth_endpoint: /sites/e56dd430-8a35-40f7-9d2e-9b30a042e48f/pkce
+  auth_token_endpoint: /sites/e56dd430-8a35-40f7-9d2e-9b30a042e48f/token
+  gateway_url: https://gateway.decapbridge.com
+  # Ve quem fez o que (opcional)
+  commit_messages:
+    create: 'Create {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge'
+    update: 'Update {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge'
+    delete: 'Delete {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge'
+    uploadMedia: 'Upload "{{path}}" - {{author-name}} <{{author-login}}> via DecapBridge'
+    deleteMedia: 'Delete "{{path}}" - {{author-name}} <{{author-login}}> via DecapBridge'
+    openAuthoring: 'Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge'
+
+# Habilita os campos do PKCE (opcional, recomendado)
+auth:
+  email_claim: email
+  first_name_claim: first_name
+  last_name_claim: last_name
+  avatar_url_claim: avatar_url
+
+# Logo do Decap + Bridge (opcional)
+logo_url: https://decapbridge.com/decapcms-with-bridge.svg
+
+# Link do site dentro do painel do Decap CMS (opcional)
+site_url: https://catalogo-andreia.netlify.app
 
 media_folder: "public/images"
 public_folder: "/images"
