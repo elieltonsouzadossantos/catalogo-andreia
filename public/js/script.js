@@ -1,7 +1,7 @@
 /* ---------------- CONFIG (ajustar com dados reais da cliente) ---------------- */
 const WHATSAPP_NUMBER = "5567996426620"; // Andreia Pateis
 const STORE_ADDRESS_QUERY = "Rua Nicolau Ritter, 968, Jardim Novo, Eldorado, MS, 79970-000"; // Andreia Pateis
-const CATALOG_URL = "https://andreiapateis.web.app"; // TODO: URL final do catálogo
+const CATALOG_URL = "https://catalogo-andreia.netlify.app";
 const INSTAGRAM_URL = "https://www.instagram.com/pateisandreia?utm_source=qr&igsh=MWZlNTV6anFvYjkwZA=="; // Andreia Pateis
 const FACEBOOK_URL = "https://www.facebook.com/share/1JJHaU8unN/"; // Andreia Pateis
 const ELIDAVY_INSTAGRAM_URL = "https://www.instagram.com/elidavy.tech?igsh=MXVsczc4bDJkdGl3Yw==";
