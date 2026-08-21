@@ -368,6 +368,27 @@
       ],
       "imagem": null,
       "destaque": false
+    },
+    {
+      "destaque": false,
+      "nome": "Teste meia",
+      "preco": 456,
+      "descricao": "Exelente acabamento",
+      "categoria": "Meia",
+      "cores": [
+        "preto",
+        "vinho",
+        "vermelho",
+        "rosa"
+      ],
+      "tamanhos": [
+        "PP",
+        "M",
+        "GG",
+        "G",
+        "P"
+      ],
+      "imagem": "/images/1000397118.jpg"
     }
   ]
 }
