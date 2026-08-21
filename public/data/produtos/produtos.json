@@ -368,6 +368,26 @@
       ],
       "imagem": null,
       "destaque": false
+    },
+    {
+      "destaque": false,
+      "nome": "teste meia",
+      "preco": 123,
+      "descricao": "exelente e maravilhose de usar",
+      "categoria": "Meia",
+      "cores": [
+        "preto",
+        "vinho",
+        "vermelho"
+      ],
+      "tamanhos": [
+        "PP",
+        "M",
+        "G",
+        "GG",
+        "P"
+      ],
+      "imagem": "/images/meia.jpg"
     }
   ]
 }
