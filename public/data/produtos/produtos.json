@@ -368,22 +368,6 @@
       ],
       "imagem": null,
       "destaque": false
-    },
-    {
-      "destaque": false,
-      "nome": "teste meia",
-      "preco": 1000,
-      "descricao": "muito bom",
-      "categoria": "Meia",
-      "cores": [
-        "vinho",
-        "rosa"
-      ],
-      "tamanhos": [
-        "GG",
-        "P"
-      ],
-      "imagem": "/images/meia.jpg"
     }
   ]
 }
