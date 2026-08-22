@@ -201,7 +201,14 @@ async function carregarDados(){
       colors: p.cores || [],
       sizes: p.tamanhos || [],
       desc: p.descricao,
-      img: p.imagem
+      img: p.imagem,
+      // Fotos por cor (opcional): lista [{cor, imagem}] vira um mapa { cor: imagem }.
+      // Cores que nunca aparecem em "cores" simplesmente nunca sao consultadas aqui,
+      // entao uma foto cadastrada por engano para uma cor nao disponivel nao tem efeito.
+      imagensPorCor: (p.imagens_por_cor || []).reduce((acc, item) => {
+        if (item && item.cor && item.imagem) acc[item.cor] = item.imagem;
+        return acc;
+      }, {})
     }));
 
     categories = ["Todos", ...new Set(products.map(p => p.cat))];
@@ -326,12 +333,14 @@ function openProduct(id){
 }
 function renderSheet(){
   const p = currentProduct;
+  // Se a cor selecionada tiver uma foto propria cadastrada, mostra ela; senao, foto padrao da peca.
+  const imgAtual = (p.imagensPorCor && p.imagensPorCor[selectedColor]) || p.img;
   document.getElementById('sheet').innerHTML = `
-    <div class="sheet-media" style="background:#000000" ${p.img ? `onclick="event.stopPropagation(); openLightbox('${p.img}','${p.name.replace(/'/g,"\\'")}')"` : ''}>
+    <div class="sheet-media" style="background:#000000" ${imgAtual ? `onclick="event.stopPropagation(); openLightbox('${imgAtual}','${p.name.replace(/'/g,"\\'")}')"` : ''}>
       <button class="sheet-close" onclick="event.stopPropagation(); closeSheet()">
         <svg width="14" height="14" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><line x1="4" y1="4" x2="20" y2="20"/><line x1="20" y1="4" x2="4" y2="20"/></svg>
       </button>
-      ${p.img ? `<img src="${p.img}" alt="${p.name}">` : garmentIcon()}
+      ${imgAtual ? `<img src="${imgAtual}" alt="${p.name}">` : garmentIcon()}
     </div>
     <div class="sheet-content">
       <div class="sheet-name serif">${p.name}</div>

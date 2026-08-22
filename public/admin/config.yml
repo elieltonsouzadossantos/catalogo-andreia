@@ -153,6 +153,102 @@ collections:
                 widget: "image"
                 required: false
                 hint: "Se deixar em branco, o site mostra um ícone de roupa no lugar da foto."
+              - label: "Fotos por cor (opcional)"
+                name: "imagens_por_cor"
+                widget: "list"
+                required: false
+                hint: "Só preencha se quiser que a foto troque quando o cliente clicar numa cor específica desta peça. Deixe em branco pra manter uma foto só, como já é hoje."
+                fields:
+                  - label: "Cor"
+                    name: "cor"
+                    widget: "select"
+                    options:
+                      # Rosas
+                      - { label: "Rosa bebê", value: "rosa-bebe" }
+                      - { label: "Rosa claro", value: "rosa-claro" }
+                      - { label: "Rosa pastel", value: "rosa-pastel" }
+                      - { label: "Rosé", value: "rose" }
+                      - { label: "Rosa chiclete", value: "rosa-chiclete" }
+                      - { label: "Rosa pink", value: "rosa-pink" }
+                      - { label: "Rosa choque", value: "rosa-choque" }
+                      - { label: "Fúcsia", value: "fucsia" }
+                      - { label: "Magenta", value: "magenta" }
+                      - { label: "Rosa queimado", value: "rosa-queimado" }
+                      - { label: "Rosewood", value: "rosewood" }
+                      # Vermelhos
+                      - { label: "Vermelho", value: "vermelho" }
+                      - { label: "Cereja", value: "cereja" }
+                      - { label: "Rubi", value: "rubi" }
+                      - { label: "Carmim", value: "carmim" }
+                      - { label: "Marsala", value: "marsala" }
+                      - { label: "Bordô", value: "bordo" }
+                      - { label: "Vinho", value: "vinho" }
+                      # Laranjas
+                      - { label: "Pêssego", value: "pessego" }
+                      - { label: "Coral", value: "coral" }
+                      - { label: "Salmão", value: "salmao" }
+                      - { label: "Laranja", value: "laranja" }
+                      - { label: "Terracota alaranjado", value: "terracota-alaranjado" }
+                      - { label: "Laranja queimado", value: "laranja-queimado" }
+                      # Amarelos
+                      - { label: "Amarelo bebê", value: "amarelo-bebe" }
+                      - { label: "Amarelo pastel", value: "amarelo-pastel" }
+                      - { label: "Limão", value: "limao" }
+                      - { label: "Mostarda", value: "mostarda" }
+                      - { label: "Dourado", value: "dourado" }
+                      # Verdes
+                      - { label: "Verde bebê", value: "verde-bebe" }
+                      - { label: "Menta", value: "menta" }
+                      - { label: "Verde água", value: "verde-agua" }
+                      - { label: "Esmeralda", value: "esmeralda" }
+                      - { label: "Oliva", value: "oliva" }
+                      - { label: "Musgo", value: "musgo" }
+                      - { label: "Verde militar", value: "verde-militar" }
+                      # Azuis
+                      - { label: "Azul bebê", value: "azul-bebe" }
+                      - { label: "Azul céu", value: "azul-ceu" }
+                      - { label: "Azul serenity", value: "azul-serenity" }
+                      - { label: "Azul Tiffany", value: "azul-tiffany" }
+                      - { label: "Azul royal", value: "azul-royal" }
+                      - { label: "Azul-petróleo", value: "azul-petroleo" }
+                      - { label: "Azul-marinho", value: "azul-marinho" }
+                      # Roxos
+                      - { label: "Lilás", value: "lilas" }
+                      - { label: "Lavanda", value: "lavanda" }
+                      - { label: "Roxo claro", value: "roxo-claro" }
+                      - { label: "Violeta", value: "violeta" }
+                      - { label: "Roxo", value: "roxo" }
+                      - { label: "Ameixa", value: "ameixa" }
+                      # Nudes e terrosos
+                      - { label: "Nude", value: "nude" }
+                      - { label: "Nude rosado", value: "nude-rosado" }
+                      - { label: "Nude pêssego", value: "nude-pessego" }
+                      - { label: "Bege", value: "bege" }
+                      - { label: "Areia", value: "areia" }
+                      - { label: "Caramelo", value: "caramelo" }
+                      - { label: "Camel", value: "camel" }
+                      - { label: "Canela", value: "canela" }
+                      - { label: "Terracota", value: "terracota" }
+                      - { label: "Marrom", value: "marrom" }
+                      - { label: "Chocolate", value: "chocolate" }
+                      - { label: "Café", value: "cafe" }
+                      # Neutros
+                      - { label: "Branco", value: "branco" }
+                      - { label: "Off-white", value: "off-white" }
+                      - { label: "Creme", value: "creme" }
+                      - { label: "Marfim", value: "marfim" }
+                      - { label: "Cinza claro", value: "cinza-claro" }
+                      - { label: "Cinza", value: "cinza" }
+                      - { label: "Grafite", value: "grafite" }
+                      # Pretos
+                      - { label: "Preto", value: "preto" }
+                      - { label: "Preto intenso", value: "preto-intenso" }
+                      - { label: "Preto fosco", value: "preto-fosco" }
+                      - { label: "Preto grafite", value: "preto-grafite" }
+                  - label: "Foto dessa cor"
+                    name: "imagem"
+                    widget: "image"
+                    required: true
               - label: "Produto em destaque?"
                 name: "destaque"
                 widget: "boolean"
