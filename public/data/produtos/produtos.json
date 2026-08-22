@@ -43,7 +43,7 @@
       "cores": [
         "preto",
         "branco",
-        "azul"
+        "azul-royal"
       ],
       "tamanhos": [
         "P",
@@ -97,7 +97,7 @@
       "categoria": "Cueca",
       "cores": [
         "cinza",
-        "azul",
+        "azul-royal",
         "preto"
       ],
       "tamanhos": [
@@ -116,7 +116,7 @@
       "categoria": "Meia",
       "cores": [
         "branco",
-        "rosa",
+        "rosa-pink",
         "preto"
       ],
       "tamanhos": [
@@ -164,7 +164,7 @@
       "categoria": "Meia",
       "cores": [
         "preto",
-        "azul",
+        "azul-royal",
         "cinza"
       ],
       "tamanhos": [
@@ -179,7 +179,7 @@
       "descricao": "Cetim fluido com toque sedoso e alças finas ajustáveis, elegante para o dia a dia.",
       "categoria": "Camisola",
       "cores": [
-        "champagne",
+        "dourado",
         "preto",
         "branco"
       ],
@@ -197,7 +197,7 @@
       "descricao": "Renda azul-marinho com bojo leve e alças duplas, um clássico elegante para o dia a dia.",
       "categoria": "Conjunto",
       "cores": [
-        "azul"
+        "azul-royal"
       ],
       "tamanhos": [
         "P",
@@ -235,7 +235,7 @@
       "cores": [
         "nude",
         "branco",
-        "rosa"
+        "rosa-pink"
       ],
       "tamanhos": [
         "P",
@@ -251,7 +251,7 @@
       "descricao": "Tom rosa suave com renda floral e fecho regulável, romântico e confortável.",
       "categoria": "Conjunto",
       "cores": [
-        "rosa"
+        "rosa-pink"
       ],
       "tamanhos": [
         "P",
@@ -287,7 +287,7 @@
       "cores": [
         "vermelho",
         "preto",
-        "azul",
+        "azul-royal",
         "branco"
       ],
       "tamanhos": [
@@ -358,7 +358,7 @@
       "descricao": "Camisola em cetim fluido, toque fresco e caimento solto.",
       "categoria": "Pijama",
       "cores": [
-        "champagne",
+        "dourado",
         "preto"
       ],
       "tamanhos": [
