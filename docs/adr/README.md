@@ -44,3 +44,4 @@ foi decidido, mas por que uma decisão anterior deixou de fazer sentido.
 | 0005 | Adiar migração para SSR/SSG e separação de camadas até produção | Aceito |
 | 0006 | Gestão de credenciais em repositórios públicos | Aceito |
 | 0007 | Hospedagem definitiva no Netlify — remoção do Firebase do projeto | Aceito |
+| 0008 | Paleta de cores curada, com nomes específicos por peça | Aceito |
