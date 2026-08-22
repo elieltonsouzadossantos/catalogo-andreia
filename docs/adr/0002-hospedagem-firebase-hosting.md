@@ -1,6 +1,6 @@
 # ADR-0002: Hospedagem em Firebase Hosting
 
-**Status:** Aceito
+**Status:** Substituído por ADR-0007
 **Data:** 2026-08-04
 
 ## Contexto

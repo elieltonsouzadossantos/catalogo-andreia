@@ -38,7 +38,9 @@ foi decidido, mas por que uma decisão anterior deixou de fazer sentido.
 | ADR | Título | Status |
 |---|---|---|
 | 0001 | Protótipo em arquivo único antes da arquitetura de produção | Aceito |
-| 0002 | Hospedagem em Firebase Hosting | Aceito |
+| 0002 | Hospedagem em Firebase Hosting | Substituído por ADR-0007 |
 | 0003 | Categoria e estação como campos separados (filtro facetado) | Aceito |
 | 0004 | Finalização de pedido via link wa.me, sem checkout próprio | Aceito |
 | 0005 | Adiar migração para SSR/SSG e separação de camadas até produção | Aceito |
+| 0006 | Gestão de credenciais em repositórios públicos | Aceito |
+| 0007 | Hospedagem definitiva no Netlify — remoção do Firebase do projeto | Aceito |
