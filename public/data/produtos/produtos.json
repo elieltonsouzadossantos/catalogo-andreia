@@ -376,14 +376,14 @@
       "imagem": "/images/roxo-claro-test1.jpeg",
       "categoria": "Calcinha",
       "cores": [
-        "roxo-claro",
         "terracota",
-        "bege"
+        "bege",
+        "rosa-choque"
       ],
       "nome": "teste1",
       "imagens_por_cor": [
         {
-          "cor": "roxo-claro",
+          "cor": "rosa-choque",
           "imagem": "/images/roxo-claro-test1.jpeg"
         },
         {
