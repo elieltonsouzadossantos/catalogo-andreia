@@ -423,13 +423,22 @@ function updateCartUI(){
 /* ---------------- WHATSAPP / LOCATION / SHARE ---------------- */
 function checkoutWhatsApp(){
   if(cart.length===0) return;
-  let msg = `Olá, Andreia Pateis! Gostaria de fazer o seguinte pedido:%0A%0A`;
-  cart.forEach(it=>{
-    msg += `• ${it.name} — Tam ${it.size}, cor ${it.color}, Qtd ${it.qty} — ${fmt(it.price*it.qty)}%0A`;
+  const agora = new Date();
+  const dataHora = `${agora.toLocaleDateString('pt-BR')} às ${agora.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'})}`;
+
+  let msg = `🛍️ *NOVO PEDIDO* — Andreia Pateis\n📅 ${dataHora}\n\n`;
+
+  cart.forEach((it,i)=>{
+    msg += `*${i+1}. ${it.name}*\n`;
+    msg += `   Tamanho: ${it.size} | Cor: ${it.color} | Qtd: ${it.qty}\n`;
+    msg += `   Subtotal: ${fmt(it.price*it.qty)}\n\n`;
   });
+
   const total = cart.reduce((s,it)=>s+it.price*it.qty,0);
-  msg += `%0ATotal: ${fmt(total)}`;
-  window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`, '_blank');
+  msg += `━━━━━━━━━━━━━━━\n`;
+  msg += `*Total: ${fmt(total)}*`;
+
+  window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`, '_blank');
 }
 function talkWhatsApp(){
   window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=Olá! Vim pelo catálogo online e gostaria de tirar uma dúvida.`, '_blank');
