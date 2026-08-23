@@ -15,7 +15,8 @@
         "GG"
       ],
       "imagem": "/images/conjunto-renda-paixao.jpg",
-      "destaque": true
+      "destaque": true,
+      "com_modelo": false
     },
     {
       "nome": "Conjunto Flanela Aconchego",
@@ -33,7 +34,8 @@
         "GG"
       ],
       "imagem": null,
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Cueca Boxer Premium",
@@ -52,7 +54,8 @@
         "GG"
       ],
       "imagem": null,
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Robe Longo Soft",
@@ -69,7 +72,8 @@
         "G"
       ],
       "imagem": null,
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Cueca Slip Básica",
@@ -88,7 +92,8 @@
         "GG"
       ],
       "imagem": null,
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Cueca Boxer Cotton Day",
@@ -107,7 +112,8 @@
         "GG"
       ],
       "imagem": null,
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Meia Cano Alto Cotton",
@@ -123,7 +129,8 @@
         "Único"
       ],
       "imagem": null,
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Meia Soquete Renda",
@@ -139,7 +146,8 @@
         "Único"
       ],
       "imagem": null,
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Meia Cano Médio Esportiva",
@@ -155,7 +163,8 @@
         "Único"
       ],
       "imagem": null,
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Meia Social Fio Egípcio",
@@ -171,7 +180,8 @@
         "Único"
       ],
       "imagem": null,
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Camisola Cetim Aurora",
@@ -189,7 +199,8 @@
         "G"
       ],
       "imagem": null,
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Conjunto Renda Meia-Noite",
@@ -206,7 +217,8 @@
         "GG"
       ],
       "imagem": "/images/conjunto-renda-meia-noite.jpg",
-      "destaque": true
+      "destaque": true,
+      "com_modelo": false
     },
     {
       "nome": "Camisola Renda Charme",
@@ -225,7 +237,8 @@
         "GG"
       ],
       "imagem": null,
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Camisola Alças Finas Essence",
@@ -243,7 +256,8 @@
         "G"
       ],
       "imagem": null,
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Conjunto Renda Doce Ilusão",
@@ -260,7 +274,8 @@
         "GG"
       ],
       "imagem": "/images/conjunto-renda-doce-ilusao.jpg",
-      "destaque": true
+      "destaque": true,
+      "com_modelo": false
     },
     {
       "nome": "Sutiã Push-up Nude Essence",
@@ -277,7 +292,8 @@
         "GG"
       ],
       "imagem": "/images/sutia-push-up-nude-essence.jpg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Calcinha Renda Charme",
@@ -297,7 +313,8 @@
         "GG"
       ],
       "imagem": "/images/calcinha-renda-charme.jpg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Fio-Dental Cristal",
@@ -315,7 +332,8 @@
         "G"
       ],
       "imagem": "/images/fio-dental-cristal.jpg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Conjunto Liso Terracota",
@@ -332,7 +350,8 @@
         "GG"
       ],
       "imagem": "/images/conjunto-liso-terracota.jpg",
-      "destaque": true
+      "destaque": true,
+      "com_modelo": false
     },
     {
       "nome": "Pijama Curto Alças Renda",
@@ -350,7 +369,8 @@
         "GG"
       ],
       "imagem": null,
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Camisola Cetim Leve",
@@ -367,7 +387,8 @@
         "G"
       ],
       "imagem": null,
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "destaque": false,
@@ -400,7 +421,8 @@
         "M",
         "G",
         "GG"
-      ]
+      ],
+      "com_modelo": false
     },
     {
       "nome": "Sutiã Alças Finas Pingente (editar)",
@@ -523,7 +545,8 @@
           "imagem": "/images/foto-2026-08-22-13.45.05_3.jpeg"
         }
       ],
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Conjunto Renda Babado (editar)",
@@ -611,7 +634,8 @@
           "imagem": "/images/foto-2026-08-22-13.45.05.jpeg"
         }
       ],
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Conjunto Renda Sensual (editar)",
@@ -634,7 +658,8 @@
           "imagem": "/images/foto-2026-08-22-13.44.07_2.jpeg"
         }
       ],
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Conjunto Renda Bordada Bicolor (editar)",
@@ -646,7 +671,8 @@
       ],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.44.08.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Top Faixa Terracota (editar)",
@@ -658,7 +684,8 @@
       ],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.38.38_2.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Calcinha Modeladora (editar)",
@@ -670,7 +697,8 @@
       ],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.21_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 1 (editar)",
@@ -680,7 +708,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.13.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 2 (editar)",
@@ -690,7 +719,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.14.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 3 (editar)",
@@ -700,7 +730,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.14_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 4 (editar)",
@@ -710,7 +741,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.14_2.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 5 (editar)",
@@ -720,7 +752,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.15.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 6 (editar)",
@@ -730,7 +763,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.15_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 7 (editar)",
@@ -740,7 +774,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.15_2.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 8 (editar)",
@@ -750,7 +785,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.16.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 9 (editar)",
@@ -760,7 +796,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.16_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 10 (editar)",
@@ -770,7 +807,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.17.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 11 (editar)",
@@ -780,7 +818,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.17_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 12 (editar)",
@@ -790,7 +829,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.17_2.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 13 (editar)",
@@ -800,7 +840,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.18.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 14 (editar)",
@@ -810,7 +851,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.18_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 15 (editar)",
@@ -820,7 +862,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.19.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 16 (editar)",
@@ -830,7 +873,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.19_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 17 (editar)",
@@ -840,7 +884,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.20.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 18 (editar)",
@@ -850,7 +895,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.20_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 19 (editar)",
@@ -860,7 +906,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.21.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 20 (editar)",
@@ -870,7 +917,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.21_2.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 21 (editar)",
@@ -880,7 +928,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.21_3.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 22 (editar)",
@@ -890,7 +939,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.21_4.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 23 (editar)",
@@ -900,7 +950,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.22.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 24 (editar)",
@@ -910,7 +961,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.22_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 25 (editar)",
@@ -920,7 +972,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.22_2.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 26 (editar)",
@@ -930,7 +983,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.36.22_3.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 27 (editar)",
@@ -940,7 +994,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.38.34_3.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 28 (editar)",
@@ -950,7 +1005,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.38.35.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 29 (editar)",
@@ -960,7 +1016,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.38.35_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 30 (editar)",
@@ -970,7 +1027,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.38.37.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 31 (editar)",
@@ -980,7 +1038,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.38.38.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 32 (editar)",
@@ -990,7 +1049,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.38.38_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 33 (editar)",
@@ -1000,7 +1060,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.38.39_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 34 (editar)",
@@ -1010,7 +1071,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.38.39_2.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 35 (editar)",
@@ -1020,7 +1082,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.38.41_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 36 (editar)",
@@ -1030,7 +1093,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.38.42.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 37 (editar)",
@@ -1040,7 +1104,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.41.45.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 38 (editar)",
@@ -1050,7 +1115,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.41.45_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 39 (editar)",
@@ -1060,7 +1126,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.41.46.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 40 (editar)",
@@ -1070,7 +1137,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.41.46_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 41 (editar)",
@@ -1080,7 +1148,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.41.46_2.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 42 (editar)",
@@ -1090,7 +1159,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.41.46_3.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 43 (editar)",
@@ -1100,7 +1170,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.41.46_4.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 44 (editar)",
@@ -1110,7 +1181,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.44.04.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 45 (editar)",
@@ -1120,7 +1192,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.44.08_2.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 46 (editar)",
@@ -1130,7 +1203,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.44.08_3.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 47 (editar)",
@@ -1140,7 +1214,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.45.04.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 48 (editar)",
@@ -1150,7 +1225,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.45.04_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 49 (editar)",
@@ -1160,7 +1236,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.45.05_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 50 (editar)",
@@ -1170,7 +1247,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.45.05_4.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 51 (editar)",
@@ -1180,7 +1258,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.53.03_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": false
     },
     {
       "nome": "Peça 52 — com modelo (editar)",
@@ -1190,7 +1269,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.41.47.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 53 — com modelo (editar)",
@@ -1200,7 +1280,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.48.49.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 54 — com modelo (editar)",
@@ -1210,7 +1291,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.48.50.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 55 — com modelo (editar)",
@@ -1220,7 +1302,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.48.50_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 56 — com modelo (editar)",
@@ -1230,7 +1313,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.48.50_2.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 57 — com modelo (editar)",
@@ -1240,7 +1324,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.48.50_3.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 58 — com modelo (editar)",
@@ -1250,7 +1335,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.49.33.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 59 — com modelo (editar)",
@@ -1260,7 +1346,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.49.33_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 60 — com modelo (editar)",
@@ -1270,7 +1357,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.49.33_2.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 61 — com modelo (editar)",
@@ -1280,7 +1368,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.49.33_3.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 62 — com modelo (editar)",
@@ -1290,7 +1379,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.49.33_4.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 63 — com modelo (editar)",
@@ -1300,7 +1390,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.52.59.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 64 — com modelo (editar)",
@@ -1310,7 +1401,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.52.59_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 65 — com modelo (editar)",
@@ -1320,7 +1412,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.52.59_2.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 66 — com modelo (editar)",
@@ -1330,7 +1423,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.52.59_3.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 67 — com modelo (editar)",
@@ -1340,7 +1434,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.53.00.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 68 — com modelo (editar)",
@@ -1350,7 +1445,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.53.00_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 69 — com modelo (editar)",
@@ -1360,7 +1456,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.53.00_2.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 70 — com modelo (editar)",
@@ -1370,7 +1467,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.53.01.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 71 — com modelo (editar)",
@@ -1380,7 +1478,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.53.01_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 72 — com modelo (editar)",
@@ -1390,7 +1489,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.53.02.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 73 — com modelo (editar)",
@@ -1400,7 +1500,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.53.02_1.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 74 — com modelo (editar)",
@@ -1410,7 +1511,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.53.02_2.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 75 — com modelo (editar)",
@@ -1420,7 +1522,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.53.03.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 76 — com modelo (editar)",
@@ -1430,7 +1533,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.53.03_2.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 77 — com modelo (editar)",
@@ -1440,7 +1544,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.53.03_3.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     },
     {
       "nome": "Peça 78 — com modelo (editar)",
@@ -1450,7 +1555,8 @@
       "cores": [],
       "tamanhos": [],
       "imagem": "/images/foto-2026-08-22-13.53.04.jpeg",
-      "destaque": false
+      "destaque": false,
+      "com_modelo": true
     }
   ]
 }
