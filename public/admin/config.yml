@@ -153,6 +153,11 @@ collections:
                 widget: "image"
                 required: false
                 hint: "Se deixar em branco, o site mostra um ícone de roupa no lugar da foto."
+              - label: "Foto com modelo?"
+                name: "com_modelo"
+                widget: "boolean"
+                default: false
+                hint: "Ative se a foto mostra uma pessoa vestindo a peça. Deixe desativado se é só a peça isolada (flat lay). Isso mantém o catálogo organizado automaticamente, sem depender da ordem de cadastro."
               - label: "Fotos por cor (opcional)"
                 name: "imagens_por_cor"
                 widget: "list"
