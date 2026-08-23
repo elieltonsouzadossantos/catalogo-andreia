@@ -344,6 +344,17 @@
   .cart-remove{font-size:11px;color:var(--rose);letter-spacing:0.05em;margin-top:4px;text-decoration:underline;}
   .drawer-empty{padding:60px 20px;text-align:center;color:var(--ivory-dim);font-size:13px;}
   .drawer-foot{padding:20px 22px 26px;border-top:1px solid var(--gold-dim);}
+  .customer-field{margin-bottom:16px;}
+  .customer-field label{display:block;font-size:10px;letter-spacing:0.08em;text-transform:uppercase;color:var(--ivory-dim);margin-bottom:6px;}
+  .input-name{
+    width:100%;padding:12px 14px;
+    background:rgba(216,165,92,0.06);
+    border:1px solid var(--gold-dim);border-radius:3px;
+    color:var(--ivory);font-size:13px;font-family:inherit;
+    outline:none;transition:border-color .2s;
+  }
+  .input-name::placeholder{color:var(--ivory-dim);opacity:0.55;}
+  .input-name:focus{border-color:var(--gold-light);}
   .total-row{display:flex;justify-content:space-between;font-size:14px;color:var(--ivory);margin-bottom:16px;}
   .total-row span:last-child{color:var(--gold-light);font-size:17px;font-family:'Cormorant Garamond',serif;}
 
