@@ -368,6 +368,39 @@
       ],
       "imagem": null,
       "destaque": false
+    },
+    {
+      "destaque": false,
+      "descricao": "Exelente acabamento",
+      "preco": 123,
+      "imagem": "/images/roxo-claro-test1.jpeg",
+      "categoria": "Calcinha",
+      "cores": [
+        "roxo-claro",
+        "terracota",
+        "bege"
+      ],
+      "nome": "teste1",
+      "imagens_por_cor": [
+        {
+          "cor": "roxo-claro",
+          "imagem": "/images/roxo-claro-test1.jpeg"
+        },
+        {
+          "cor": "terracota",
+          "imagem": "/images/terracota-test2.jpeg"
+        },
+        {
+          "cor": "bege",
+          "imagem": "/images/bege-teste3.jpeg"
+        }
+      ],
+      "tamanhos": [
+        "PP",
+        "M",
+        "G",
+        "GG"
+      ]
     }
   ]
 }
