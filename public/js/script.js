@@ -202,6 +202,9 @@ async function carregarDados(){
       sizes: p.tamanhos || [],
       desc: p.descricao,
       img: p.imagem,
+      // Foto com modelo? Controla o agrupamento na grade abaixo — não depende
+      // da posição do produto dentro do produtos.json.
+      comModelo: !!p.com_modelo,
       // Fotos por cor (opcional): lista [{cor, imagem}] vira um mapa { cor: imagem }.
       // Cores que nunca aparecem em "cores" simplesmente nunca sao consultadas aqui,
       // entao uma foto cadastrada por engano para uma cor nao disponivel nao tem efeito.
@@ -210,6 +213,12 @@ async function carregarDados(){
         return acc;
       }, {})
     }));
+
+    // Mantém as peças "sem modelo" agrupadas antes das peças "com modelo" na
+    // grade, não importa em que ordem a Andreia cadastrou cada uma no painel.
+    // Array.prototype.sort é estável (mantém a ordem relativa dentro de cada
+    // grupo), então isso só reordena os dois blocos, sem embaralhar nada dentro deles.
+    products.sort((a, b) => (a.comModelo === b.comModelo) ? 0 : (a.comModelo ? 1 : -1));
 
     categories = ["Todos", ...new Set(products.map(p => p.cat))];
   } catch (err) {
