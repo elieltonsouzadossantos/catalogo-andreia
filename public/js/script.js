@@ -423,10 +423,17 @@ function updateCartUI(){
 /* ---------------- WHATSAPP / LOCATION / SHARE ---------------- */
 function checkoutWhatsApp(){
   if(cart.length===0) return;
+  const nameInput = document.getElementById('customerName');
+  const customerName = nameInput ? nameInput.value.trim() : '';
+  if(!customerName){
+    showToast('Digite seu nome antes de finalizar');
+    if(nameInput) nameInput.focus();
+    return;
+  }
   const agora = new Date();
   const dataHora = `${agora.toLocaleDateString('pt-BR')} às ${agora.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'})}`;
 
-  let msg = `🛍️ *NOVO PEDIDO* — Andreia Pateis\n📅 ${dataHora}\n\n`;
+  let msg = `🛍️ *NOVO PEDIDO* — Andreia Pateis\n👤 Cliente: ${customerName}\n📅 ${dataHora}\n\n`;
 
   cart.forEach((it,i)=>{
     msg += `*${i+1}. ${it.name}*\n`;
