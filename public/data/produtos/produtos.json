@@ -401,6 +401,786 @@
         "G",
         "GG"
       ]
+    },
+    {
+      "nome": "Sutiã Alças Finas Pingente (editar)",
+      "preco": 0,
+      "descricao": "Peça disponível em várias cores — ajustar nome, preço e descrição.",
+      "categoria": "Sutiã",
+      "cores": [
+        "vermelho",
+        "magenta",
+        "salmao",
+        "terracota",
+        "nude",
+        "cereja",
+        "limao",
+        "azul-marinho",
+        "nude-rosado",
+        "lilas",
+        "rosa-pink",
+        "nude-pessego",
+        "creme",
+        "camel",
+        "azul-petroleo",
+        "chocolate",
+        "preto",
+        "azul-royal",
+        "branco",
+        "rosa-choque",
+        "areia",
+        "azul-tiffany"
+      ],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.38.31.jpeg",
+      "imagens_por_cor": [
+        {
+          "cor": "vermelho",
+          "imagem": "/images/foto-2026-08-22-13.38.31.jpeg"
+        },
+        {
+          "cor": "magenta",
+          "imagem": "/images/foto-2026-08-22-13.38.31_1.jpeg"
+        },
+        {
+          "cor": "salmao",
+          "imagem": "/images/foto-2026-08-22-13.38.32.jpeg"
+        },
+        {
+          "cor": "terracota",
+          "imagem": "/images/foto-2026-08-22-13.38.33.jpeg"
+        },
+        {
+          "cor": "nude",
+          "imagem": "/images/foto-2026-08-22-13.38.33_1.jpeg"
+        },
+        {
+          "cor": "cereja",
+          "imagem": "/images/foto-2026-08-22-13.38.33_2.jpeg"
+        },
+        {
+          "cor": "limao",
+          "imagem": "/images/foto-2026-08-22-13.38.34.jpeg"
+        },
+        {
+          "cor": "azul-marinho",
+          "imagem": "/images/foto-2026-08-22-13.38.34_1.jpeg"
+        },
+        {
+          "cor": "nude-rosado",
+          "imagem": "/images/foto-2026-08-22-13.38.34_2.jpeg"
+        },
+        {
+          "cor": "lilas",
+          "imagem": "/images/foto-2026-08-22-13.38.38_4.jpeg"
+        },
+        {
+          "cor": "rosa-pink",
+          "imagem": "/images/foto-2026-08-22-13.38.39.jpeg"
+        },
+        {
+          "cor": "nude-pessego",
+          "imagem": "/images/foto-2026-08-22-13.38.39_3.jpeg"
+        },
+        {
+          "cor": "creme",
+          "imagem": "/images/foto-2026-08-22-13.38.40.jpeg"
+        },
+        {
+          "cor": "camel",
+          "imagem": "/images/foto-2026-08-22-13.38.40_1.jpeg"
+        },
+        {
+          "cor": "azul-petroleo",
+          "imagem": "/images/foto-2026-08-22-13.38.40_2.jpeg"
+        },
+        {
+          "cor": "chocolate",
+          "imagem": "/images/foto-2026-08-22-13.38.40_3.jpeg"
+        },
+        {
+          "cor": "preto",
+          "imagem": "/images/foto-2026-08-22-13.38.41.jpeg"
+        },
+        {
+          "cor": "azul-royal",
+          "imagem": "/images/foto-2026-08-22-13.38.42_1.jpeg"
+        },
+        {
+          "cor": "branco",
+          "imagem": "/images/foto-2026-08-22-13.38.42_2.jpeg"
+        },
+        {
+          "cor": "rosa-choque",
+          "imagem": "/images/foto-2026-08-22-13.38.42_3.jpeg"
+        },
+        {
+          "cor": "areia",
+          "imagem": "/images/foto-2026-08-22-13.38.42_4.jpeg"
+        },
+        {
+          "cor": "azul-tiffany",
+          "imagem": "/images/foto-2026-08-22-13.45.05_3.jpeg"
+        }
+      ],
+      "destaque": false
+    },
+    {
+      "nome": "Conjunto Renda Babado (editar)",
+      "preco": 0,
+      "descricao": "Peça disponível em várias cores — ajustar nome, preço e descrição.",
+      "categoria": "Conjunto",
+      "cores": [
+        "vermelho",
+        "magenta",
+        "vinho",
+        "rosa-choque",
+        "azul-tiffany",
+        "rosa-pink",
+        "terracota",
+        "preto",
+        "branco",
+        "menta",
+        "cereja",
+        "azul-marinho",
+        "rosa-bebe",
+        "azul-serenity",
+        "preto-intenso"
+      ],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.44.05.jpeg",
+      "imagens_por_cor": [
+        {
+          "cor": "vermelho",
+          "imagem": "/images/foto-2026-08-22-13.44.05.jpeg"
+        },
+        {
+          "cor": "magenta",
+          "imagem": "/images/foto-2026-08-22-13.44.05_1.jpeg"
+        },
+        {
+          "cor": "vinho",
+          "imagem": "/images/foto-2026-08-22-13.44.05_2.jpeg"
+        },
+        {
+          "cor": "rosa-choque",
+          "imagem": "/images/foto-2026-08-22-13.44.05_3.jpeg"
+        },
+        {
+          "cor": "azul-tiffany",
+          "imagem": "/images/foto-2026-08-22-13.44.05_4.jpeg"
+        },
+        {
+          "cor": "rosa-pink",
+          "imagem": "/images/foto-2026-08-22-13.44.06.jpeg"
+        },
+        {
+          "cor": "terracota",
+          "imagem": "/images/foto-2026-08-22-13.44.06_1.jpeg"
+        },
+        {
+          "cor": "preto",
+          "imagem": "/images/foto-2026-08-22-13.44.06_2.jpeg"
+        },
+        {
+          "cor": "branco",
+          "imagem": "/images/foto-2026-08-22-13.44.06_3.jpeg"
+        },
+        {
+          "cor": "menta",
+          "imagem": "/images/foto-2026-08-22-13.44.07.jpeg"
+        },
+        {
+          "cor": "cereja",
+          "imagem": "/images/foto-2026-08-22-13.44.08_1.jpeg"
+        },
+        {
+          "cor": "azul-marinho",
+          "imagem": "/images/foto-2026-08-22-13.45.04_2.jpeg"
+        },
+        {
+          "cor": "rosa-bebe",
+          "imagem": "/images/foto-2026-08-22-13.45.04_3.jpeg"
+        },
+        {
+          "cor": "azul-serenity",
+          "imagem": "/images/foto-2026-08-22-13.45.04_4.jpeg"
+        },
+        {
+          "cor": "preto-intenso",
+          "imagem": "/images/foto-2026-08-22-13.45.05.jpeg"
+        }
+      ],
+      "destaque": false
+    },
+    {
+      "nome": "Conjunto Renda Sensual (editar)",
+      "preco": 0,
+      "descricao": "Peça disponível em várias cores — ajustar nome, preço e descrição.",
+      "categoria": "Conjunto",
+      "cores": [
+        "vermelho",
+        "amarelo-pastel"
+      ],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.44.07_1.jpeg",
+      "imagens_por_cor": [
+        {
+          "cor": "vermelho",
+          "imagem": "/images/foto-2026-08-22-13.44.07_1.jpeg"
+        },
+        {
+          "cor": "amarelo-pastel",
+          "imagem": "/images/foto-2026-08-22-13.44.07_2.jpeg"
+        }
+      ],
+      "destaque": false
+    },
+    {
+      "nome": "Conjunto Renda Bordada Bicolor (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [
+        "preto"
+      ],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.44.08.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Top Faixa Terracota (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Sutiã",
+      "cores": [
+        "terracota"
+      ],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.38.38_2.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Calcinha Modeladora (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Calcinha",
+      "cores": [
+        "bege"
+      ],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.21_1.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 1 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.13.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 2 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.14.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 3 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.14_1.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 4 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.14_2.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 5 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.15.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 6 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.15_1.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 7 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.15_2.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 8 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.16.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 9 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.16_1.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 10 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.17.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 11 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.17_1.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 12 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.17_2.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 13 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.18.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 14 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.18_1.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 15 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.19.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 16 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.19_1.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 17 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.20.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 18 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.20_1.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 19 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.21.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 20 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.21_2.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 21 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.21_3.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 22 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.21_4.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 23 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.22.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 24 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.22_1.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 25 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.22_2.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 26 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.36.22_3.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 27 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.38.34_3.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 28 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.38.35.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 29 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.38.35_1.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 30 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.38.37.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 31 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.38.38.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 32 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.38.38_1.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 33 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.38.39_1.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 34 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.38.39_2.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 35 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.38.41_1.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 36 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.38.42.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 37 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.41.45.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 38 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.41.45_1.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 39 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.41.46.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 40 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.41.46_1.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 41 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.41.46_2.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 42 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.41.46_3.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 43 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.41.46_4.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 44 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.41.47.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 45 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.44.04.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 46 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.44.08_2.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 47 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.44.08_3.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 48 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.45.04.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 49 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.45.04_1.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 50 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.45.05_1.jpeg",
+      "destaque": false
+    },
+    {
+      "nome": "Peça 51 (editar)",
+      "preco": 0,
+      "descricao": "Descrição a definir",
+      "categoria": "Conjunto",
+      "cores": [],
+      "tamanhos": [],
+      "imagem": "/images/foto-2026-08-22-13.45.05_4.jpeg",
+      "destaque": false
     }
   ]
 }
