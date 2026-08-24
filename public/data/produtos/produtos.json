@@ -1,304 +1,306 @@
 {
   "produtos": [
     {
-      "nome": "Conjunto Renda Paixão",
-      "preco": 200,
+      "destaque": true,
+      "com_modelo": false,
       "descricao": "Conjunto em renda com alças reguláveis e acabamento delicado, sutiã e calcinha combinando.",
+      "preco": 200,
+      "imagem": "/images/conjunto-renda-paixao.jpg",
       "categoria": "Conjunto",
       "cores": [
-        "vermelho"
+        "rosa-pink"
       ],
+      "nome": "Conjunto Renda Paixão",
       "tamanhos": [
         "P",
         "M",
         "G",
         "GG"
-      ],
-      "imagem": "/images/conjunto-renda-paixao.jpg",
-      "destaque": true,
-      "com_modelo": false
+      ]
     },
     {
-      "nome": "Conjunto Flanela Aconchego",
-      "preco": 129.9,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Conjunto de manga longa em flanela macia, para os dias mais frios.",
+      "preco": 129.9,
+      "imagem": null,
       "categoria": "Pijama",
       "cores": [
         "marrom",
         "vinho"
       ],
+      "nome": "Conjunto Flanela Aconchego",
       "tamanhos": [
         "P",
         "M",
         "G",
         "GG"
-      ],
-      "imagem": null,
-      "destaque": false,
-      "com_modelo": false
+      ]
     },
     {
-      "nome": "Cueca Boxer Premium",
-      "preco": 49.9,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Boxer em algodão com elastano, cós reforçado e costura reforçada para durabilidade.",
+      "preco": 49.9,
+      "imagem": null,
       "categoria": "Cueca",
       "cores": [
         "preto",
         "branco",
         "azul-royal"
       ],
+      "nome": "Cueca Boxer Premium",
       "tamanhos": [
         "P",
         "M",
         "G",
         "GG"
-      ],
-      "imagem": null,
-      "destaque": false,
-      "com_modelo": false
+      ]
     },
     {
-      "nome": "Robe Longo Soft",
-      "preco": 149.9,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Robe longo em fleece soft, quentinho e confortável para o inverno.",
+      "preco": 149.9,
+      "imagem": null,
       "categoria": "Pijama",
       "cores": [
         "marrom",
         "preto"
       ],
+      "nome": "Robe Longo Soft",
       "tamanhos": [
         "P",
         "M",
         "G"
-      ],
-      "imagem": null,
-      "destaque": false,
-      "com_modelo": false
+      ]
     },
     {
-      "nome": "Cueca Slip Básica",
-      "preco": 29.9,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Slip em algodão macio, cós elástico confortável para uso diário.",
+      "preco": 29.9,
+      "imagem": null,
       "categoria": "Cueca",
       "cores": [
         "preto",
         "branco",
         "cinza"
       ],
+      "nome": "Cueca Slip Básica",
       "tamanhos": [
         "P",
         "M",
         "G",
         "GG"
-      ],
-      "imagem": null,
-      "destaque": false,
-      "com_modelo": false
+      ]
     },
     {
-      "nome": "Cueca Boxer Cotton Day",
-      "preco": 39.9,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Boxer em cotton respirável, ideal para o dia a dia com toque leve.",
+      "preco": 39.9,
+      "imagem": null,
       "categoria": "Cueca",
       "cores": [
         "cinza",
         "azul-royal",
         "preto"
       ],
+      "nome": "Cueca Boxer Cotton Day",
       "tamanhos": [
         "P",
         "M",
         "G",
         "GG"
-      ],
-      "imagem": null,
-      "destaque": false,
-      "com_modelo": false
+      ]
     },
     {
-      "nome": "Meia Cano Alto Cotton",
-      "preco": 24.9,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Meia cano alto em algodão macio, ideal para o dia a dia.",
+      "preco": 24.9,
+      "imagem": null,
       "categoria": "Meia",
       "cores": [
         "branco",
         "rosa-pink",
         "preto"
       ],
+      "nome": "Meia Cano Alto Cotton",
       "tamanhos": [
         "Único"
-      ],
-      "imagem": null,
-      "destaque": false,
-      "com_modelo": false
+      ]
     },
     {
-      "nome": "Meia Soquete Renda",
-      "preco": 19.9,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Meia soquete com barrado em renda, delicada e confortável.",
+      "preco": 19.9,
+      "imagem": null,
       "categoria": "Meia",
       "cores": [
         "branco",
         "nude",
         "preto"
       ],
+      "nome": "Meia Soquete Renda",
       "tamanhos": [
         "Único"
-      ],
-      "imagem": null,
-      "destaque": false,
-      "com_modelo": false
+      ]
     },
     {
-      "nome": "Meia Cano Médio Esportiva",
-      "preco": 22.9,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Meia esportiva em algodão com reforço no calcanhar e biqueira.",
+      "preco": 22.9,
+      "imagem": null,
       "categoria": "Meia",
       "cores": [
         "preto",
         "branco",
         "cinza"
       ],
+      "nome": "Meia Cano Médio Esportiva",
       "tamanhos": [
         "Único"
-      ],
-      "imagem": null,
-      "destaque": false,
-      "com_modelo": false
+      ]
     },
     {
-      "nome": "Meia Social Fio Egípcio",
-      "preco": 29.9,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Meia social de fio fino, toque macio e caimento discreto para o dia a dia.",
+      "preco": 29.9,
+      "imagem": null,
       "categoria": "Meia",
       "cores": [
         "preto",
         "azul-royal",
         "cinza"
       ],
+      "nome": "Meia Social Fio Egípcio",
       "tamanhos": [
         "Único"
-      ],
-      "imagem": null,
-      "destaque": false,
-      "com_modelo": false
+      ]
     },
     {
-      "nome": "Camisola Cetim Aurora",
-      "preco": 119.9,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Cetim fluido com toque sedoso e alças finas ajustáveis, elegante para o dia a dia.",
+      "preco": 119.9,
+      "imagem": null,
       "categoria": "Camisola",
       "cores": [
         "dourado",
         "preto",
         "branco"
       ],
+      "nome": "Camisola Cetim Aurora",
       "tamanhos": [
         "P",
         "M",
         "G"
-      ],
-      "imagem": null,
-      "destaque": false,
-      "com_modelo": false
+      ]
     },
     {
-      "nome": "Conjunto Renda Meia-Noite",
-      "preco": 139.9,
+      "destaque": true,
+      "com_modelo": false,
       "descricao": "Renda azul-marinho com bojo leve e alças duplas, um clássico elegante para o dia a dia.",
+      "preco": 139.9,
+      "imagem": "/images/conjunto-renda-meia-noite.jpg",
       "categoria": "Conjunto",
       "cores": [
         "azul-royal"
       ],
+      "nome": "Conjunto Renda Meia-Noite",
       "tamanhos": [
         "P",
         "M",
         "G",
         "GG"
-      ],
-      "imagem": "/images/conjunto-renda-meia-noite.jpg",
-      "destaque": true,
-      "com_modelo": false
+      ]
     },
     {
-      "nome": "Camisola Renda Charme",
-      "preco": 129.9,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Camisola em viscose com decote em renda, caimento solto e confortável.",
+      "preco": 129.9,
+      "imagem": null,
       "categoria": "Camisola",
       "cores": [
         "preto",
         "vinho",
         "nude"
       ],
+      "nome": "Camisola Renda Charme",
       "tamanhos": [
         "P",
         "M",
         "G",
         "GG"
-      ],
-      "imagem": null,
-      "destaque": false,
-      "com_modelo": false
+      ]
     },
     {
-      "nome": "Camisola Alças Finas Essence",
-      "preco": 89.9,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Camisola básica em malha macia, alças finas reguláveis, ideal para o dia a dia.",
+      "preco": 89.9,
+      "imagem": null,
       "categoria": "Camisola",
       "cores": [
         "nude",
         "branco",
         "rosa-pink"
       ],
+      "nome": "Camisola Alças Finas Essence",
       "tamanhos": [
         "P",
         "M",
         "G"
-      ],
-      "imagem": null,
-      "destaque": false,
-      "com_modelo": false
+      ]
     },
     {
-      "nome": "Conjunto Renda Doce Ilusão",
-      "preco": 149.9,
+      "destaque": true,
+      "com_modelo": false,
       "descricao": "Tom rosa suave com renda floral e fecho regulável, romântico e confortável.",
+      "preco": 149.9,
+      "imagem": "/images/conjunto-renda-doce-ilusao.jpg",
       "categoria": "Conjunto",
       "cores": [
         "rosa-pink"
       ],
+      "nome": "Conjunto Renda Doce Ilusão",
       "tamanhos": [
         "P",
         "M",
         "G",
         "GG"
-      ],
-      "imagem": "/images/conjunto-renda-doce-ilusao.jpg",
-      "destaque": true,
-      "com_modelo": false
+      ]
     },
     {
-      "nome": "Sutiã Push-up Nude Essence",
-      "preco": 79.9,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Bojo push-up em microfibra macia, discreto sob qualquer roupa.",
+      "preco": 79.9,
+      "imagem": "/images/sutia-push-up-nude-essence.jpg",
       "categoria": "Sutiã",
       "cores": [
         "nude"
       ],
+      "nome": "Sutiã Push-up Nude Essence",
       "tamanhos": [
         "P",
         "M",
         "G",
         "GG"
-      ],
-      "imagem": "/images/sutia-push-up-nude-essence.jpg",
-      "destaque": false,
-      "com_modelo": false
+      ]
     },
     {
-      "nome": "Calcinha Renda Charme",
-      "preco": 34.9,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Calcinha em renda transparente com acabamento delicado, disponível em quatro cores.",
+      "preco": 34.9,
+      "imagem": "/images/calcinha-renda-charme.jpg",
       "categoria": "Calcinha",
       "cores": [
         "vermelho",
@@ -306,92 +308,91 @@
         "azul-royal",
         "branco"
       ],
+      "nome": "Calcinha Renda Charme",
       "tamanhos": [
         "P",
         "M",
         "G",
         "GG"
-      ],
-      "imagem": "/images/calcinha-renda-charme.jpg",
-      "destaque": false,
-      "com_modelo": false
+      ]
     },
     {
-      "nome": "Fio-Dental Cristal",
-      "preco": 29.9,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Fio-dental em renda com argola metalizada, disponível em três cores.",
+      "preco": 29.9,
+      "imagem": "/images/fio-dental-cristal.jpg",
       "categoria": "Calcinha",
       "cores": [
         "branco",
         "preto",
         "vermelho"
       ],
+      "nome": "Fio-Dental Cristal",
       "tamanhos": [
         "P",
         "M",
         "G"
-      ],
-      "imagem": "/images/fio-dental-cristal.jpg",
-      "destaque": false,
-      "com_modelo": false
+      ]
     },
     {
-      "nome": "Conjunto Liso Terracota",
-      "preco": 99.9,
+      "destaque": true,
+      "com_modelo": false,
       "descricao": "Conjunto liso em microfibra na cor terracota, sutiã sem bojo e calcinha alta.",
+      "preco": 99.9,
+      "imagem": "/images/conjunto-liso-terracota.jpg",
       "categoria": "Conjunto",
       "cores": [
         "marrom"
       ],
+      "nome": "Conjunto Liso Terracota",
       "tamanhos": [
         "P",
         "M",
         "G",
         "GG"
-      ],
-      "imagem": "/images/conjunto-liso-terracota.jpg",
-      "destaque": true,
-      "com_modelo": false
+      ]
     },
     {
-      "nome": "Pijama Curto Alças Renda",
-      "preco": 89.9,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Conjunto curto em viscose leve com detalhes em renda, ideal para dias quentes.",
+      "preco": 89.9,
+      "imagem": null,
       "categoria": "Pijama",
       "cores": [
         "nude",
         "branco"
       ],
+      "nome": "Pijama Curto Alças Renda",
       "tamanhos": [
         "P",
         "M",
         "G",
         "GG"
-      ],
-      "imagem": null,
-      "destaque": false,
-      "com_modelo": false
+      ]
     },
     {
-      "nome": "Camisola Cetim Leve",
-      "preco": 99.9,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Camisola em cetim fluido, toque fresco e caimento solto.",
+      "preco": 99.9,
+      "imagem": null,
       "categoria": "Pijama",
       "cores": [
         "dourado",
         "preto"
       ],
+      "nome": "Camisola Cetim Leve",
       "tamanhos": [
         "P",
         "M",
         "G"
-      ],
-      "imagem": null,
-      "destaque": false,
-      "com_modelo": false
+      ]
     },
     {
       "destaque": false,
+      "com_modelo": false,
       "descricao": "Exelente acabamento",
       "preco": 123,
       "imagem": "/images/roxo-claro-test1.jpeg",
@@ -421,13 +422,14 @@
         "M",
         "G",
         "GG"
-      ],
-      "com_modelo": false
+      ]
     },
     {
-      "nome": "Sutiã Alças Finas Pingente (editar)",
-      "preco": 0,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Peça disponível em várias cores — ajustar nome, preço e descrição.",
+      "preco": 0,
+      "imagem": "/images/foto-2026-08-22-13.38.31.jpeg",
       "categoria": "Sutiã",
       "cores": [
         "vermelho",
@@ -453,8 +455,7 @@
         "areia",
         "azul-tiffany"
       ],
-      "tamanhos": [],
-      "imagem": "/images/foto-2026-08-22-13.38.31.jpeg",
+      "nome": "Sutiã Alças Finas Pingente (editar)",
       "imagens_por_cor": [
         {
           "cor": "vermelho",
@@ -545,13 +546,14 @@
           "imagem": "/images/foto-2026-08-22-13.45.05_3.jpeg"
         }
       ],
-      "destaque": false,
-      "com_modelo": false
+      "tamanhos": []
     },
     {
-      "nome": "Conjunto Renda Babado (editar)",
-      "preco": 0,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Peça disponível em várias cores — ajustar nome, preço e descrição.",
+      "preco": 0,
+      "imagem": "/images/foto-2026-08-22-13.44.05.jpeg",
       "categoria": "Conjunto",
       "cores": [
         "vermelho",
@@ -570,8 +572,7 @@
         "azul-serenity",
         "preto-intenso"
       ],
-      "tamanhos": [],
-      "imagem": "/images/foto-2026-08-22-13.44.05.jpeg",
+      "nome": "Conjunto Renda Babado (editar)",
       "imagens_por_cor": [
         {
           "cor": "vermelho",
@@ -634,20 +635,20 @@
           "imagem": "/images/foto-2026-08-22-13.45.05.jpeg"
         }
       ],
-      "destaque": false,
-      "com_modelo": false
+      "tamanhos": []
     },
     {
-      "nome": "Conjunto Renda Sensual (editar)",
-      "preco": 0,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Peça disponível em várias cores — ajustar nome, preço e descrição.",
+      "preco": 0,
+      "imagem": "/images/foto-2026-08-22-13.44.07_1.jpeg",
       "categoria": "Conjunto",
       "cores": [
         "vermelho",
         "amarelo-pastel"
       ],
-      "tamanhos": [],
-      "imagem": "/images/foto-2026-08-22-13.44.07_1.jpeg",
+      "nome": "Conjunto Renda Sensual (editar)",
       "imagens_por_cor": [
         {
           "cor": "vermelho",
@@ -658,905 +659,904 @@
           "imagem": "/images/foto-2026-08-22-13.44.07_2.jpeg"
         }
       ],
-      "destaque": false,
-      "com_modelo": false
+      "tamanhos": []
     },
     {
-      "nome": "Conjunto Renda Bordada Bicolor (editar)",
-      "preco": 0,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Descrição a definir",
+      "preco": 0,
+      "imagem": "/images/foto-2026-08-22-13.44.08.jpeg",
       "categoria": "Conjunto",
       "cores": [
         "preto"
       ],
-      "tamanhos": [],
-      "imagem": "/images/foto-2026-08-22-13.44.08.jpeg",
-      "destaque": false,
-      "com_modelo": false
+      "nome": "Conjunto Renda Bordada Bicolor (editar)",
+      "tamanhos": []
     },
     {
-      "nome": "Top Faixa Terracota (editar)",
-      "preco": 0,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Descrição a definir",
+      "preco": 0,
+      "imagem": "/images/foto-2026-08-22-13.38.38_2.jpeg",
       "categoria": "Sutiã",
       "cores": [
         "terracota"
       ],
-      "tamanhos": [],
-      "imagem": "/images/foto-2026-08-22-13.38.38_2.jpeg",
-      "destaque": false,
-      "com_modelo": false
+      "nome": "Top Faixa Terracota (editar)",
+      "tamanhos": []
     },
     {
-      "nome": "Calcinha Modeladora (editar)",
-      "preco": 0,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Descrição a definir",
+      "preco": 0,
+      "imagem": "/images/foto-2026-08-22-13.36.21_1.jpeg",
       "categoria": "Calcinha",
       "cores": [
         "bege"
       ],
-      "tamanhos": [],
-      "imagem": "/images/foto-2026-08-22-13.36.21_1.jpeg",
-      "destaque": false,
-      "com_modelo": false
+      "nome": "Calcinha Modeladora (editar)",
+      "tamanhos": []
     },
     {
-      "nome": "Peça 1 (editar)",
-      "preco": 0,
+      "destaque": false,
+      "com_modelo": false,
       "descricao": "Descrição a definir",
-      "categoria": "Conjunto",
-      "cores": [],
-      "tamanhos": [],
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.13.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 2 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 1 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.14.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 3 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 2 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.14_1.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 4 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 3 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.14_2.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 5 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 4 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.15.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 6 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 5 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.15_1.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 7 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 6 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.15_2.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 8 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 7 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.16.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 9 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 8 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.16_1.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 10 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 9 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.17.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 11 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 10 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.17_1.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 12 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 11 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.17_2.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 13 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 12 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.18.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 14 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 13 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.18_1.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 15 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 14 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.19.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 16 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 15 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.19_1.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 17 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 16 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.20.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 18 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 17 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.20_1.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 19 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 18 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.21.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 20 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 19 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.21_2.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 21 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 20 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.21_3.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 22 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 21 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.21_4.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 23 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 22 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.22.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 24 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 23 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.22_1.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 25 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 24 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.22_2.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 26 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 25 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.36.22_3.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 27 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 26 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.38.34_3.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 28 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 27 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.38.35.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 29 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 28 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.38.35_1.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 30 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 29 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.38.37.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 31 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 30 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.38.38.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 32 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 31 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.38.38_1.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 33 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 32 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.38.39_1.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 34 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 33 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.38.39_2.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 35 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 34 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.38.41_1.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 36 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 35 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.38.42.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 37 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 36 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.41.45.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 38 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 37 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.41.45_1.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 39 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 38 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.41.46.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 40 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 39 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.41.46_1.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 41 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 40 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.41.46_2.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 42 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 41 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.41.46_3.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 43 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 42 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.41.46_4.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 44 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 43 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.44.04.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 45 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 44 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.44.08_2.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 46 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 45 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.44.08_3.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 47 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 46 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.45.04.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 48 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 47 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.45.04_1.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 49 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 48 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.45.05_1.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 50 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 49 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.45.05_4.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 51 (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 50 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": false,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.53.03_1.jpeg",
-      "destaque": false,
-      "com_modelo": false
-    },
-    {
-      "nome": "Peça 52 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 51 (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.41.47.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 53 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 52 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.48.49.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 54 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 53 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.48.50.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 55 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 54 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.48.50_1.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 56 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 55 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.48.50_2.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 57 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 56 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.48.50_3.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 58 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 57 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.49.33.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 59 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 58 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.49.33_1.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 60 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 59 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.49.33_2.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 61 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 60 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.49.33_3.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 62 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 61 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.49.33_4.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 63 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 62 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.52.59.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 64 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 63 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.52.59_1.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 65 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 64 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.52.59_2.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 66 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 65 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.52.59_3.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 67 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 66 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.53.00.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 68 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 67 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.53.00_1.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 69 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 68 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.53.00_2.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 70 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 69 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.53.01.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 71 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 70 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.53.01_1.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 72 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 71 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.53.02.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 73 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 72 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.53.02_1.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 74 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 73 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.53.02_2.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 75 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 74 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.53.03.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 76 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 75 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.53.03_2.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 77 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
+      "nome": "Peça 76 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
+      "destaque": false,
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
       "imagem": "/images/foto-2026-08-22-13.53.03_3.jpeg",
-      "destaque": false,
-      "com_modelo": true
-    },
-    {
-      "nome": "Peça 78 — com modelo (editar)",
-      "preco": 0,
-      "descricao": "Descrição a definir",
       "categoria": "Conjunto",
       "cores": [],
-      "tamanhos": [],
-      "imagem": "/images/foto-2026-08-22-13.53.04.jpeg",
+      "nome": "Peça 77 — com modelo (editar)",
+      "tamanhos": []
+    },
+    {
       "destaque": false,
-      "com_modelo": true
+      "com_modelo": true,
+      "descricao": "Descrição a definir",
+      "preco": 0,
+      "imagem": "/images/foto-2026-08-22-13.53.04.jpeg",
+      "categoria": "Conjunto",
+      "cores": [],
+      "nome": "Peça 78 — com modelo (editar)",
+      "tamanhos": []
     }
   ]
 }
