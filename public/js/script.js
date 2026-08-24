@@ -43,9 +43,9 @@ function renderFeaturedCarousel(){
     <div class="fc-slides" id="fcSlides">
       ${list.map((p,i) => `
         <div class="fc-slide ${i===0?'active':''}" data-id="${p.id}">
-          <img src="${p.img}" alt="${p.name}">
+          <img src="${escapeHTML(p.img)}" alt="${escapeHTML(p.name)}">
           <div class="fc-slide-label">
-            <div class="fc-slide-name">${p.name}</div>
+            <div class="fc-slide-name">${escapeHTML(p.name)}</div>
             <div class="fc-slide-price">${fmt(p.price)}</div>
           </div>
         </div>
@@ -243,6 +243,27 @@ let currentFilter = "Todos";
 
 /* ---------------- HELPERS ---------------- */
 const fmt = v => v.toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
+// Escapa texto vindo dos produtos (nome, descrição, caminho da foto) antes de
+// inserir no HTML — evita que um valor com <, >, ou aspas seja interpretado
+// como marcação/atributo em vez de texto puro (proteção contra XSS armazenado).
+function escapeHTML(str){
+  return String(str ?? '').replace(/[&<>"']/g, c => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  }[c]));
+}
+// Mesma ideia, mas para texto que vai dentro de um atributo onclick="..." inline
+// (ex.: o nome/imagem passados pro openLightbox). Escapa primeiro pra um literal
+// JS de aspas simples seguro, depois escapa aspas duplas e "&" pra não quebrar o
+// atributo HTML que envolve o onclick.
+function escapeForInlineHandler(str){
+  return String(str ?? '')
+    .replace(/\\/g, '\\\\')
+    .replace(/'/g, "\\'")
+    .replace(/\n/g, '\\n')
+    .replace(/\r/g, '')
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;');
+}
 function showToast(msg){
   const t = document.getElementById('toast');
   t.textContent = msg;
@@ -321,10 +342,10 @@ function renderGrid(){
     <div class="card" onclick="openProduct(${p.id})">
       <div class="card-media" style="background:#000000">
         <span class="card-tag">${p.season ? p.cat+' · '+p.season : p.cat}</span>
-        ${p.img ? `<img src="${p.img}" alt="${p.name}">` : garmentIcon()}
+        ${p.img ? `<img src="${escapeHTML(p.img)}" alt="${escapeHTML(p.name)}">` : garmentIcon()}
       </div>
       <div class="card-body">
-        <div class="card-name serif">${p.name}</div>
+        <div class="card-name serif">${escapeHTML(p.name)}</div>
         <div class="card-price">${fmt(p.price)}</div>
         <div class="card-dots">${p.colors.map(c=>`<span class="dot" style="background:${COLORS[c]}"></span>`).join('')}</div>
       </div>
@@ -345,16 +366,16 @@ function renderSheet(){
   // Se a cor selecionada tiver uma foto propria cadastrada, mostra ela; senao, foto padrao da peca.
   const imgAtual = (p.imagensPorCor && p.imagensPorCor[selectedColor]) || p.img;
   document.getElementById('sheet').innerHTML = `
-    <div class="sheet-media" style="background:#000000" ${imgAtual ? `onclick="event.stopPropagation(); openLightbox('${imgAtual}','${p.name.replace(/'/g,"\\'")}')"` : ''}>
+    <div class="sheet-media" style="background:#000000" ${imgAtual ? `onclick="event.stopPropagation(); openLightbox('${escapeForInlineHandler(imgAtual)}','${escapeForInlineHandler(p.name)}')"` : ''}>
       <button class="sheet-close" onclick="event.stopPropagation(); closeSheet()">
         <svg width="14" height="14" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><line x1="4" y1="4" x2="20" y2="20"/><line x1="20" y1="4" x2="4" y2="20"/></svg>
       </button>
-      ${imgAtual ? `<img src="${imgAtual}" alt="${p.name}">` : garmentIcon()}
+      ${imgAtual ? `<img src="${escapeHTML(imgAtual)}" alt="${escapeHTML(p.name)}">` : garmentIcon()}
     </div>
     <div class="sheet-content">
-      <div class="sheet-name serif">${p.name}</div>
+      <div class="sheet-name serif">${escapeHTML(p.name)}</div>
       <div class="sheet-price">${fmt(p.price)}</div>
-      <div class="sheet-desc">${p.desc}</div>
+      <div class="sheet-desc">${escapeHTML(p.desc)}</div>
 
       <div class="field-label">Tamanho</div>
       <div class="sizes">${p.sizes.map(s=>`<div class="size-opt ${s===selectedSize?'selected':''}" onclick="pickSize('${s}')">${s}</div>`).join('')}</div>
@@ -416,10 +437,10 @@ function updateCartUI(){
   footEl.style.display='block';
   itemsEl.innerHTML = cart.map((it,i)=>`
     <div class="cart-row">
-      <div class="cart-thumb" style="background:#000000">${it.img ? `<img src="${it.img}" alt="${it.name}">` : garmentIcon()}</div>
+      <div class="cart-thumb" style="background:#000000">${it.img ? `<img src="${escapeHTML(it.img)}" alt="${escapeHTML(it.name)}">` : garmentIcon()}</div>
       <div class="cart-info">
-        <div class="name serif">${it.name}</div>
-        <div class="meta">Tam ${it.size} · ${it.color} · Qtd ${it.qty}</div>
+        <div class="name serif">${escapeHTML(it.name)}</div>
+        <div class="meta">Tam ${escapeHTML(it.size)} · ${escapeHTML(it.color)} · Qtd ${it.qty}</div>
         <div class="price">${fmt(it.price*it.qty)}</div>
         <div class="cart-remove" onclick="removeFromCart(${i})">Remover</div>
       </div>
