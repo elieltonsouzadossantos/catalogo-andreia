@@ -4,7 +4,7 @@
       "destaque": true,
       "com_modelo": false,
       "descricao": "Conjunto em renda com alças reguláveis e acabamento delicado, sutiã e calcinha combinando.",
-      "preco": 200,
+      "preco": 175,
       "imagem": "/images/conjunto-renda-paixao.jpg",
       "categoria": "Conjunto",
       "cores": [
@@ -13,9 +13,7 @@
       "nome": "Conjunto Renda Paixão",
       "tamanhos": [
         "P",
-        "M",
-        "G",
-        "GG"
+        "G"
       ]
     },
     {
