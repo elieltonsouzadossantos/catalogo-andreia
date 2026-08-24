@@ -1548,13 +1548,17 @@
     {
       "destaque": false,
       "com_modelo": true,
-      "descricao": "Descrição a definir",
-      "preco": 0,
+      "descricao": "Conjunto com detalhe no sutiã e calcinha em renda que proporciona ainda mais delicadeza a pça ",
+      "preco": 130,
       "imagem": "/images/foto-2026-08-22-13.53.04.jpeg",
       "categoria": "Conjunto",
-      "cores": [],
-      "nome": "Peça 78 — com modelo (editar)",
-      "tamanhos": []
+      "cores": [
+        "lilas"
+      ],
+      "nome": "Conjunto com bojo calcinha fio duplo",
+      "tamanhos": [
+        "M"
+      ]
     }
   ]
 }
