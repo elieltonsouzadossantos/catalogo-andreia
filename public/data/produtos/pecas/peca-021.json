@@ -1,0 +1,18 @@
+{
+  "destaque": false,
+  "com_modelo": false,
+  "descricao": "Camisola em cetim fluido, toque fresco e caimento solto.",
+  "preco": 99.9,
+  "imagem": null,
+  "categoria": "Pijama",
+  "cores": [
+    "dourado",
+    "preto"
+  ],
+  "nome": "Camisola Cetim Leve",
+  "tamanhos": [
+    "P",
+    "M",
+    "G"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "destaque": false,
+  "com_modelo": false,
+  "descricao": "Robe longo em fleece soft, quentinho e confortável para o inverno.",
+  "preco": 149.9,
+  "imagem": null,
+  "categoria": "Pijama",
+  "cores": [
+    "marrom",
+    "preto"
+  ],
+  "nome": "Robe Longo Soft",
+  "tamanhos": [
+    "P",
+    "M",
+    "G"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "destaque": false,
+  "com_modelo": false,
+  "descricao": "Peça disponível em várias cores — ajustar nome, preço e descrição.",
+  "preco": 0,
+  "imagem": "/images/foto-2026-08-22-13.44.07_1.jpeg",
+  "categoria": "Conjunto",
+  "cores": [
+    "vermelho",
+    "amarelo-pastel"
+  ],
+  "nome": "Conjunto Renda Sensual (editar)",
+  "imagens_por_cor": [
+    {
+      "cor": "vermelho",
+      "imagem": "/images/foto-2026-08-22-13.44.07_1.jpeg"
+    },
+    {
+      "cor": "amarelo-pastel",
+      "imagem": "/images/foto-2026-08-22-13.44.07_2.jpeg"
+    }
+  ],
+  "tamanhos": []
+}

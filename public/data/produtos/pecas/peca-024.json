@@ -1,0 +1,89 @@
+{
+  "destaque": false,
+  "com_modelo": false,
+  "descricao": "Peça disponível em várias cores — ajustar nome, preço e descrição.",
+  "preco": 0,
+  "imagem": "/images/foto-2026-08-22-13.44.05.jpeg",
+  "categoria": "Conjunto",
+  "cores": [
+    "vermelho",
+    "magenta",
+    "vinho",
+    "rosa-choque",
+    "azul-tiffany",
+    "rosa-pink",
+    "terracota",
+    "preto",
+    "branco",
+    "menta",
+    "cereja",
+    "azul-marinho",
+    "rosa-bebe",
+    "azul-serenity",
+    "preto-intenso"
+  ],
+  "nome": "Conjunto Renda Babado (editar)",
+  "imagens_por_cor": [
+    {
+      "cor": "vermelho",
+      "imagem": "/images/foto-2026-08-22-13.44.05.jpeg"
+    },
+    {
+      "cor": "magenta",
+      "imagem": "/images/foto-2026-08-22-13.44.05_1.jpeg"
+    },
+    {
+      "cor": "vinho",
+      "imagem": "/images/foto-2026-08-22-13.44.05_2.jpeg"
+    },
+    {
+      "cor": "rosa-choque",
+      "imagem": "/images/foto-2026-08-22-13.44.05_3.jpeg"
+    },
+    {
+      "cor": "azul-tiffany",
+      "imagem": "/images/foto-2026-08-22-13.44.05_4.jpeg"
+    },
+    {
+      "cor": "rosa-pink",
+      "imagem": "/images/foto-2026-08-22-13.44.06.jpeg"
+    },
+    {
+      "cor": "terracota",
+      "imagem": "/images/foto-2026-08-22-13.44.06_1.jpeg"
+    },
+    {
+      "cor": "preto",
+      "imagem": "/images/foto-2026-08-22-13.44.06_2.jpeg"
+    },
+    {
+      "cor": "branco",
+      "imagem": "/images/foto-2026-08-22-13.44.06_3.jpeg"
+    },
+    {
+      "cor": "menta",
+      "imagem": "/images/foto-2026-08-22-13.44.07.jpeg"
+    },
+    {
+      "cor": "cereja",
+      "imagem": "/images/foto-2026-08-22-13.44.08_1.jpeg"
+    },
+    {
+      "cor": "azul-marinho",
+      "imagem": "/images/foto-2026-08-22-13.45.04_2.jpeg"
+    },
+    {
+      "cor": "rosa-bebe",
+      "imagem": "/images/foto-2026-08-22-13.45.04_3.jpeg"
+    },
+    {
+      "cor": "azul-serenity",
+      "imagem": "/images/foto-2026-08-22-13.45.04_4.jpeg"
+    },
+    {
+      "cor": "preto-intenso",
+      "imagem": "/images/foto-2026-08-22-13.45.05.jpeg"
+    }
+  ],
+  "tamanhos": []
+}

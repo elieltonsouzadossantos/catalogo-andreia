@@ -1,0 +1,124 @@
+{
+  "destaque": false,
+  "com_modelo": false,
+  "descricao": "Peça disponível em várias cores — ajustar nome, preço e descrição.",
+  "preco": 0,
+  "imagem": "/images/foto-2026-08-22-13.38.31.jpeg",
+  "categoria": "Sutiã",
+  "cores": [
+    "vermelho",
+    "magenta",
+    "salmao",
+    "terracota",
+    "nude",
+    "cereja",
+    "limao",
+    "azul-marinho",
+    "nude-rosado",
+    "lilas",
+    "rosa-pink",
+    "nude-pessego",
+    "creme",
+    "camel",
+    "azul-petroleo",
+    "chocolate",
+    "preto",
+    "azul-royal",
+    "branco",
+    "rosa-choque",
+    "areia",
+    "azul-tiffany"
+  ],
+  "nome": "Sutiã Alças Finas Pingente (editar)",
+  "imagens_por_cor": [
+    {
+      "cor": "vermelho",
+      "imagem": "/images/foto-2026-08-22-13.38.31.jpeg"
+    },
+    {
+      "cor": "magenta",
+      "imagem": "/images/foto-2026-08-22-13.38.31_1.jpeg"
+    },
+    {
+      "cor": "salmao",
+      "imagem": "/images/foto-2026-08-22-13.38.32.jpeg"
+    },
+    {
+      "cor": "terracota",
+      "imagem": "/images/foto-2026-08-22-13.38.33.jpeg"
+    },
+    {
+      "cor": "nude",
+      "imagem": "/images/foto-2026-08-22-13.38.33_1.jpeg"
+    },
+    {
+      "cor": "cereja",
+      "imagem": "/images/foto-2026-08-22-13.38.33_2.jpeg"
+    },
+    {
+      "cor": "limao",
+      "imagem": "/images/foto-2026-08-22-13.38.34.jpeg"
+    },
+    {
+      "cor": "azul-marinho",
+      "imagem": "/images/foto-2026-08-22-13.38.34_1.jpeg"
+    },
+    {
+      "cor": "nude-rosado",
+      "imagem": "/images/foto-2026-08-22-13.38.34_2.jpeg"
+    },
+    {
+      "cor": "lilas",
+      "imagem": "/images/foto-2026-08-22-13.38.38_4.jpeg"
+    },
+    {
+      "cor": "rosa-pink",
+      "imagem": "/images/foto-2026-08-22-13.38.39.jpeg"
+    },
+    {
+      "cor": "nude-pessego",
+      "imagem": "/images/foto-2026-08-22-13.38.39_3.jpeg"
+    },
+    {
+      "cor": "creme",
+      "imagem": "/images/foto-2026-08-22-13.38.40.jpeg"
+    },
+    {
+      "cor": "camel",
+      "imagem": "/images/foto-2026-08-22-13.38.40_1.jpeg"
+    },
+    {
+      "cor": "azul-petroleo",
+      "imagem": "/images/foto-2026-08-22-13.38.40_2.jpeg"
+    },
+    {
+      "cor": "chocolate",
+      "imagem": "/images/foto-2026-08-22-13.38.40_3.jpeg"
+    },
+    {
+      "cor": "preto",
+      "imagem": "/images/foto-2026-08-22-13.38.41.jpeg"
+    },
+    {
+      "cor": "azul-royal",
+      "imagem": "/images/foto-2026-08-22-13.38.42_1.jpeg"
+    },
+    {
+      "cor": "branco",
+      "imagem": "/images/foto-2026-08-22-13.38.42_2.jpeg"
+    },
+    {
+      "cor": "rosa-choque",
+      "imagem": "/images/foto-2026-08-22-13.38.42_3.jpeg"
+    },
+    {
+      "cor": "areia",
+      "imagem": "/images/foto-2026-08-22-13.38.42_4.jpeg"
+    },
+    {
+      "cor": "azul-tiffany",
+      "imagem": "/images/foto-2026-08-22-13.45.05_3.jpeg"
+    }
+  ],
+  "tamanhos": []
+}

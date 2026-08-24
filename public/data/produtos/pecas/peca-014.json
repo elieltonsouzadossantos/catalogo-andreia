@@ -1,0 +1,19 @@
+{
+  "destaque": false,
+  "com_modelo": false,
+  "descricao": "Camisola básica em malha macia, alças finas reguláveis, ideal para o dia a dia.",
+  "preco": 89.9,
+  "imagem": null,
+  "categoria": "Camisola",
+  "cores": [
+    "nude",
+    "branco",
+    "rosa-pink"
+  ],
+  "nome": "Camisola Alças Finas Essence",
+  "tamanhos": [
+    "P",
+    "M",
+    "G"
+  ]
+}

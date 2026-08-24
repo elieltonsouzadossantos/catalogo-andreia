@@ -1,0 +1,20 @@
+{
+  "destaque": false,
+  "com_modelo": false,
+  "descricao": "Slip em algodão macio, cós elástico confortável para uso diário.",
+  "preco": 29.9,
+  "imagem": null,
+  "categoria": "Cueca",
+  "cores": [
+    "preto",
+    "branco",
+    "cinza"
+  ],
+  "nome": "Cueca Slip Básica",
+  "tamanhos": [
+    "P",
+    "M",
+    "G",
+    "GG"
+  ]
+}

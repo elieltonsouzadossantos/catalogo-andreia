@@ -1,0 +1,19 @@
+{
+  "destaque": false,
+  "com_modelo": false,
+  "descricao": "Fio-dental em renda com argola metalizada, disponível em três cores.",
+  "preco": 29.9,
+  "imagem": "/images/fio-dental-cristal.jpg",
+  "categoria": "Calcinha",
+  "cores": [
+    "branco",
+    "preto",
+    "vermelho"
+  ],
+  "nome": "Fio-Dental Cristal",
+  "tamanhos": [
+    "P",
+    "M",
+    "G"
+  ]
+}

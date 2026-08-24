@@ -1,0 +1,20 @@
+{
+  "destaque": false,
+  "com_modelo": false,
+  "descricao": "Boxer em algodão com elastano, cós reforçado e costura reforçada para durabilidade.",
+  "preco": 49.9,
+  "imagem": null,
+  "categoria": "Cueca",
+  "cores": [
+    "preto",
+    "branco",
+    "azul-royal"
+  ],
+  "nome": "Cueca Boxer Premium",
+  "tamanhos": [
+    "P",
+    "M",
+    "G",
+    "GG"
+  ]
+}

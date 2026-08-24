@@ -1,0 +1,18 @@
+{
+  "destaque": true,
+  "com_modelo": false,
+  "descricao": "Renda azul-marinho com bojo leve e alças duplas, um clássico elegante para o dia a dia.",
+  "preco": 139.9,
+  "imagem": "/images/conjunto-renda-meia-noite.jpg",
+  "categoria": "Conjunto",
+  "cores": [
+    "azul-royal"
+  ],
+  "nome": "Conjunto Renda Meia-Noite",
+  "tamanhos": [
+    "P",
+    "M",
+    "G",
+    "GG"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "destaque": false,
+  "com_modelo": false,
+  "descricao": "Camisola em viscose com decote em renda, caimento solto e confortável.",
+  "preco": 129.9,
+  "imagem": null,
+  "categoria": "Camisola",
+  "cores": [
+    "preto",
+    "vinho",
+    "nude"
+  ],
+  "nome": "Camisola Renda Charme",
+  "tamanhos": [
+    "P",
+    "M",
+    "G",
+    "GG"
+  ]
+}

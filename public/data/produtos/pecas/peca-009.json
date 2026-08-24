@@ -1,0 +1,17 @@
+{
+  "destaque": false,
+  "com_modelo": false,
+  "descricao": "Meia esportiva em algodão com reforço no calcanhar e biqueira.",
+  "preco": 22.9,
+  "imagem": null,
+  "categoria": "Meia",
+  "cores": [
+    "preto",
+    "branco",
+    "cinza"
+  ],
+  "nome": "Meia Cano Médio Esportiva",
+  "tamanhos": [
+    "Único"
+  ]
+}

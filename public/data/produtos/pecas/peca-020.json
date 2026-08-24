@@ -1,0 +1,19 @@
+{
+  "destaque": false,
+  "com_modelo": false,
+  "descricao": "Conjunto curto em viscose leve com detalhes em renda, ideal para dias quentes.",
+  "preco": 89.9,
+  "imagem": null,
+  "categoria": "Pijama",
+  "cores": [
+    "nude",
+    "branco"
+  ],
+  "nome": "Pijama Curto Alças Renda",
+  "tamanhos": [
+    "P",
+    "M",
+    "G",
+    "GG"
+  ]
+}

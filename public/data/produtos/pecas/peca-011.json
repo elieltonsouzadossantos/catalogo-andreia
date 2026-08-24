@@ -1,0 +1,19 @@
+{
+  "destaque": false,
+  "com_modelo": false,
+  "descricao": "Cetim fluido com toque sedoso e alças finas ajustáveis, elegante para o dia a dia.",
+  "preco": 119.9,
+  "imagem": null,
+  "categoria": "Camisola",
+  "cores": [
+    "dourado",
+    "preto",
+    "branco"
+  ],
+  "nome": "Camisola Cetim Aurora",
+  "tamanhos": [
+    "P",
+    "M",
+    "G"
+  ]
+}

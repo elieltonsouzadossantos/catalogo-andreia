@@ -1,0 +1,18 @@
+{
+  "destaque": true,
+  "com_modelo": false,
+  "descricao": "Tom rosa suave com renda floral e fecho regulável, romântico e confortável.",
+  "preco": 149.9,
+  "imagem": "/images/conjunto-renda-doce-ilusao.jpg",
+  "categoria": "Conjunto",
+  "cores": [
+    "rosa-pink"
+  ],
+  "nome": "Conjunto Renda Doce Ilusão",
+  "tamanhos": [
+    "P",
+    "M",
+    "G",
+    "GG"
+  ]
+}

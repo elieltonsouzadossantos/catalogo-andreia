@@ -1,0 +1,18 @@
+{
+  "destaque": true,
+  "com_modelo": false,
+  "descricao": "Conjunto liso em microfibra na cor terracota, sutiã sem bojo e calcinha alta.",
+  "preco": 99.9,
+  "imagem": "/images/conjunto-liso-terracota.jpg",
+  "categoria": "Conjunto",
+  "cores": [
+    "marrom"
+  ],
+  "nome": "Conjunto Liso Terracota",
+  "tamanhos": [
+    "P",
+    "M",
+    "G",
+    "GG"
+  ]
+}

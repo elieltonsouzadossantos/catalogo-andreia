@@ -1,0 +1,19 @@
+{
+  "destaque": false,
+  "com_modelo": false,
+  "descricao": "Conjunto de manga longa em flanela macia, para os dias mais frios.",
+  "preco": 129.9,
+  "imagem": null,
+  "categoria": "Pijama",
+  "cores": [
+    "marrom",
+    "vinho"
+  ],
+  "nome": "Conjunto Flanela Aconchego",
+  "tamanhos": [
+    "P",
+    "M",
+    "G",
+    "GG"
+  ]
+}
