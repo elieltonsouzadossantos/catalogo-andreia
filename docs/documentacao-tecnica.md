@@ -6,7 +6,7 @@ Como o site, os dados de produto e o painel de edição da Andreia Pateis funcio
 baixo do capô — pra consultar sempre que precisar mexer no projeto ou explicar uma
 decisão pra alguém.
 
-*Netlify + DecapBridge · Site estático, sem framework · Atualizado em 23/08/2026*
+*Netlify + DecapBridge · Site estático, sem framework · Atualizado em 24/08/2026*
 
 ## Sumário
 
@@ -37,7 +37,7 @@ funcionou no passado.
 2–3 frases e link para o arquivo — nunca copiar o texto completo do ADR pra cá, isso é o
 que causa desatualização silenciosa); ao mudar a arquitetura, o fluxo de deploy ou a
 estrutura de pastas (§02–§04); ao resolver ou identificar um item de débito técnico
-(§08).
+(§08); ao mudar algo relacionado a segurança (§07).
 
 **Como atualizar:** edite a seção correspondente diretamente neste arquivo, atualize a
 data "Atualizado em" no topo, e — se a mudança for relevante para quem só lê por cima —
@@ -122,6 +122,7 @@ public/                          ← única pasta que o Netlify publica
   index.html                     catálogo (a página que o cliente final vê)
   favicon.png                    logo "AP"; também usado como imagem de
                                   compartilhamento (og:image / twitter:image)
+  _headers                       cabeçalhos de segurança e CSP (ver §07)
   css/style.css
   js/script.js
   data/produtos/produtos.json    ← "banco de dados" do catálogo
@@ -187,6 +188,7 @@ que ficaria desatualizado aqui se o ADR fosse revisto no futuro.
 | [0007](./adr/0007-hospedagem-netlify-remocao-firebase.md) | Hospedagem definitiva no Netlify — remoção do Firebase | Aceito |
 | [0008](./adr/0008-paleta-de-cores-curada-com-nomes-especificos.md) | Paleta de cores curada, com nomes específicos por peça | Aceito |
 | [0009](./adr/0009-tag-com-modelo-e-ordenacao-na-exibicao.md) | Classificação "com modelo / sem modelo" como campo de dados, não como ordem no arquivo | Aceito |
+| [0010](./adr/0010-auditoria-seguranca-firebase-xss-headers.md) | Auditoria de segurança — exclusão do Firebase abandonado, escape de saída e cabeçalhos de segurança | Aceito |
 
 ### Resumo das decisões mais significativas
 
@@ -213,6 +215,15 @@ aplicado retroativamente aos 106 produtos existentes, e `script.js` passou a ord
 exibição por esse campo a cada carregamento — a organização deixa de depender da ordem
 de cadastro.
 
+**Auditoria de segurança — Firebase, XSS e cabeçalhos** ([ADR-0010](./adr/0010-auditoria-seguranca-firebase-xss-headers.md),
+24/08/2026). Uma auditoria encontrou o projeto Firebase abandonado ainda ativo, com
+regras do Firestore abertas ao público até 11/09/2026, além de texto de produto sendo
+inserido em HTML sem escape (risco de XSS) e nenhum cabeçalho de segurança configurado.
+O projeto Firebase foi excluído por completo, `script.js` passou a escapar todo texto de
+produto antes de inserir no HTML, e `public/_headers` passou a aplicar
+Content-Security-Policy e cabeçalhos padrão de segurança ao catálogo público (deixando o
+`/admin` de fora do CSP, por depender de um CDN externo para carregar o Decap CMS).
+
 Os demais ADRs (0001, 0003–0006) descrevem decisões de produto e de processo que
 continuam válidas como estão — protótipo em arquivo único antes de investir em
 infraestrutura, categoria/estação como filtro facetado, checkout via WhatsApp em vez de
@@ -225,9 +236,32 @@ nunca commitar credenciais. O histórico completo está em [`docs/adr/`](./adr/)
 público — necessário para o deploy automático do Netlify. Qualquer pessoa com o link vê
 todo o histórico de commits e todos os arquivos rastreados. Nenhuma credencial (chave de
 API, senha, token) pode ser commitada, nunca — nem temporariamente. O
-[`.gitignore`](../.gitignore) já protege `serviceAccountKey.json` e
-`firebase-debug.log`; confirmado que nenhuma credencial está rastreada no repositório
-(`git ls-files` não retorna nenhum arquivo de credencial).
+[`.gitignore`](../.gitignore) protege nomes exatos de arquivo já problemáticos
+(`serviceAccountKey.json`, `firebase-debug.log`) e também padrões genéricos
+(`*serviceAccount*`, `*.pem`, `*.p12`, `.env`, `.env.*`), ampliados na auditoria de
+segurança de 24/08/2026 (ver [ADR-0010](./adr/0010-auditoria-seguranca-firebase-xss-headers.md)).
+
+**Proteção contra XSS.** Todo texto de produto vindo do `produtos.json` (`nome`,
+`descricao`, caminho da foto) passa por escape antes de ser inserido no HTML — funções
+`escapeHTML` e `escapeForInlineHandler` em [`script.js`](../public/js/script.js). Os
+campos de vocabulário fechado do painel (categoria, cor, tamanho) ficaram de fora por
+não serem texto livre. Qualquer novo trecho de renderização que insira texto de produto
+em HTML deve usar essas funções.
+
+**Cabeçalhos de segurança e CSP.** [`public/_headers`](../public/_headers) aplica
+X-Frame-Options, X-Content-Type-Options, Referrer-Policy e Permissions-Policy a todo o
+site, e um Content-Security-Policy às rotas `/` e `/index.html` — deliberadamente não ao
+`/admin`, que depende de um CDN externo (`unpkg.com`) para carregar o Decap CMS.
+Limitações conhecidas dessa política em [ADR-0010](./adr/0010-auditoria-seguranca-firebase-xss-headers.md)
+e em §08.
+
+**Firebase abandonado, removido por completo.** O projeto Firebase "andreia-pateis",
+cujo código morto foi removido do repositório em 22/08/2026 ([ADR-0007](./adr/0007-hospedagem-netlify-remocao-firebase.md)),
+continuava existindo como recurso de nuvem — com dado remanescente e regras do Firestore
+abertas ao público (`allow read, write: if true` até 11/09/2026, o padrão de "modo de
+teste" do Firebase). Foi excluído por completo em 24/08/2026
+([ADR-0010](./adr/0010-auditoria-seguranca-firebase-xss-headers.md)); não há mais nenhum
+serviço Firebase associado ao projeto.
 
 **Acesso ao painel admin.** Só entra quem foi convidado como colaborador pelo
 DecapBridge (decapbridge.com → Gerenciar colaboradores). Cada convite é um token de uso
@@ -258,6 +292,15 @@ arquivo corretamente.
 **Baixo — Pasta `admin/` vazia na raiz do projeto.** Sobra do local antigo do painel,
 antes de mover para `public/admin/` (correção do 404 documentada no histórico do
 projeto). Não é rastreada pelo Git — pode ser apagada manualmente sem nenhum risco.
+
+**Baixo — CSP ainda permite script inline (`'unsafe-inline'`).** O site usa
+`onclick="..."` inline extensivamente (padrão herdado do protótipo original), então o
+Content-Security-Policy em [`public/_headers`](../public/_headers) precisou manter
+`'unsafe-inline'` no `script-src` pra não quebrar a interface. Isso limita a proteção
+real do CSP contra XSS — ele restringe de onde scripts externos podem carregar, mas não
+bloqueia script inline. Resolver de verdade exigiria trocar o padrão de `onclick` inline
+por `addEventListener` em todo o `script.js`, um refactor maior. Ver
+[ADR-0010](./adr/0010-auditoria-seguranca-firebase-xss-headers.md).
 
 **Médio — Sem registro automático de pedidos.** Por decisão do
 [ADR-0004](./adr/0004-checkout-via-whatsapp-wa-me.md), o checkout acontece via WhatsApp
@@ -313,7 +356,21 @@ infraestrutura real (22/08/2026):
   repositório, diagrama da §02 convertido para Mermaid, e a §06 reescrita para resumir
   (não duplicar) o conteúdo dos ADRs.
 
+**Auditoria de segurança (24/08/2026):**
+
+- Projeto Firebase "andreia-pateis" excluído por completo — as regras do Firestore
+  estavam abertas ao público até 11/09/2026, e a chave do projeto continua recuperável
+  no histórico do Git.
+- `script.js` passou a escapar nome, descrição e caminho da foto de cada produto antes
+  de inserir em HTML (`escapeHTML`, `escapeForInlineHandler`), corrigindo um risco de
+  XSS armazenado.
+- [`public/_headers`](../public/_headers) criado, com cabeçalhos de segurança e
+  Content-Security-Policy aplicados ao catálogo público.
+- `.gitignore` ampliado com padrões genéricos de credencial.
+- [`docs/adr/0010-auditoria-seguranca-firebase-xss-headers.md`](./adr/0010-auditoria-seguranca-firebase-xss-headers.md)
+  criado, e o índice em [`docs/adr/README.md`](./adr/README.md) atualizado.
+
 ---
 
 *Documentação técnica interna — ELIDAVY TECH · catálogo Andreia Pateis · versão de
-23/08/2026.*
+24/08/2026.*
