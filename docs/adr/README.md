@@ -46,3 +46,4 @@ foi decidido, mas por que uma decisão anterior deixou de fazer sentido.
 | 0007 | Hospedagem definitiva no Netlify — remoção do Firebase do projeto | Aceito |
 | 0008 | Paleta de cores curada, com nomes específicos por peça | Aceito |
 | 0009 | Classificação "com modelo / sem modelo" como campo de dados, não como ordem no arquivo | Aceito |
+| 0010 | Auditoria de segurança — exclusão do Firebase abandonado, escape de saída e cabeçalhos de segurança | Aceito |
