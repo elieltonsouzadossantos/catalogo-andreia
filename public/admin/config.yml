@@ -41,6 +41,8 @@ collections:
     slug: "{{fields.nome}}"
     identifier_field: "nome"
     summary: "{{fields.nome}} — {{fields.categoria}}"
+    extension: "json"
+    format: "json"
     fields:
       - { label: "Nome", name: "nome", widget: "string", required: true }
       - { label: "Preço (R$)", name: "preco", widget: "number", value_type: "float", required: true }
