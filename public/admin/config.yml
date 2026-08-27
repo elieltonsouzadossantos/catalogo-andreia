@@ -45,7 +45,7 @@ collections:
     format: "json"
     fields:
       - { label: "Nome", name: "nome", widget: "string", required: true }
-        - { label: "Peça disponível?", name: "disponivel", widget: "boolean", default: true, hint: "Desative para esconder a peça do site sem excluir o cadastro. Você pode reativar quando quiser." }
+      - { label: "Peça disponível?", name: "disponivel", widget: "boolean", default: true, hint: "Desative para esconder a peça do site sem excluir o cadastro. Você pode reativar quando quiser." }
       - { label: "Preço (R$)", name: "preco", widget: "number", value_type: "float", required: true }
       - { label: "Descrição", name: "descricao", widget: "text", required: true }
       - label: "Categoria"
