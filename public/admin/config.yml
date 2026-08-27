@@ -145,7 +145,7 @@ collections:
         widget: "select"
         multiple: true
         required: false
-        options: ["PP", "P", "M", "G", "GG", "Único"]
+        options: ["PP", "P", "M", "G", "GG", "48", "50", "52", "54", "Único"]
       - label: "Foto do produto"
         name: "imagem"
         widget: "image"
