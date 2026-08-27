@@ -192,7 +192,12 @@ async function carregarDados(){
     // precisa pensar em número nenhum ao cadastrar um produto novo pelo painel.
     // Os nomes de campo em português (nome, preco, categoria...) são convertidos
     // pro formato interno que o resto do script já espera (cat, name, price...).
-    products = (dados.produtos || []).map((p, index) => ({
+    products = (dados.produtos || [])
+      // "disponivel" é opcional: peças cadastradas antes desse campo existir
+      // (ou com o campo em branco) continuam aparecendo normalmente — só some
+      // do site quem a Andreia desativar explicitamente no painel.
+      .filter(p => p.disponivel !== false)
+      .map((p, index) => ({
       id: index,
       cat: p.categoria,
       name: p.nome,
