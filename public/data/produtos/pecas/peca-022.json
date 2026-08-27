@@ -1,16 +1,16 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Exelente acabamento",
-  "preco": 123,
+  "descricao": "Sutiã avulso reforçado com base de microfibra e elástico embutido ",
+  "preco": 85,
   "imagem": "/images/roxo-claro-test1.jpeg",
-  "categoria": "Calcinha",
+  "categoria": "Sutiã",
   "cores": [
     "terracota",
-    "bege",
-    "rosa-choque"
+    "rosa-bebe",
+    "marsala"
   ],
-  "nome": "teste1",
+  "nome": "Sutiã avulso",
   "imagens_por_cor": [
     {
       "cor": "rosa-choque",
@@ -26,7 +26,7 @@
     }
   ],
   "tamanhos": [
-    "PP",
+    "P",
     "M",
     "G",
     "GG"
