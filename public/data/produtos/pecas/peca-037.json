@@ -1,11 +1,16 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Descrição a definir",
-  "preco": 0,
+  "descricao": "Calcinha fio duplo em microfibra ",
+  "preco": 35,
   "imagem": "/images/foto-2026-08-22-13.36.16_1.jpeg",
-  "categoria": "Conjunto",
-  "cores": [],
-  "nome": "Peça 9 (editar)",
-  "tamanhos": []
+  "categoria": "Calcinha",
+  "cores": [
+    "azul-bebe"
+  ],
+  "disponivel": true,
+  "nome": "Calcinha fio duplo",
+  "tamanhos": [
+    "P"
+  ]
 }
