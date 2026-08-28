@@ -1,21 +1,16 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Calcinha em renda transparente com acabamento delicado, disponível em quatro cores.",
-  "preco": 34.9,
+  "descricao": "Calcinha em renda transparente com acabamento delicado",
+  "preco": 25,
   "imagem": "/images/calcinha-renda-charme.jpg",
   "categoria": "Calcinha",
   "cores": [
-    "vermelho",
-    "preto",
-    "azul-royal",
-    "branco"
+    "azul-bebe"
   ],
-  "nome": "Calcinha Renda Charme",
+  "disponivel": true,
+  "nome": "Calcinha renda charme",
   "tamanhos": [
-    "P",
-    "M",
-    "G",
-    "GG"
+    "G"
   ]
 }
