@@ -47,3 +47,5 @@ foi decidido, mas por que uma decisão anterior deixou de fazer sentido.
 | 0008 | Paleta de cores curada, com nomes específicos por peça | Aceito |
 | 0009 | Classificação "com modelo / sem modelo" como campo de dados, não como ordem no arquivo | Aceito |
 | 0010 | Auditoria de segurança — exclusão do Firebase abandonado, escape de saída e cabeçalhos de segurança | Aceito |
+| 0011 | Migração de coleção única para folder collection (um arquivo JSON por peça) no Decap CMS | Aceito |
+| 0012 | Campo "disponível" como soft-hide de peça, sem exclusão do cadastro | Aceito |
