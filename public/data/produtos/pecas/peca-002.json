@@ -1,19 +1,16 @@
 {
-  "destaque": false,
-  "com_modelo": false,
-  "descricao": "Conjunto de manga longa em flanela macia, para os dias mais frios.",
-  "preco": 129.9,
-  "imagem": null,
-  "categoria": "Pijama",
+  "destaque": true,
+  "com_modelo": true,
+  "descricao": "Conjunto em lesie toque macio ",
+  "preco": 175,
+  "imagem": "/images/1001959341.jpg",
+  "categoria": "Conjunto",
   "cores": [
-    "marrom",
-    "vinho"
+    "preto-intenso"
   ],
-  "nome": "Conjunto Flanela Aconchego",
+  "disponivel": true,
+  "nome": "Conjunto lesie ",
   "tamanhos": [
-    "P",
-    "M",
-    "G",
     "GG"
   ]
 }
