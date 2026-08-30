@@ -1,20 +1,17 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Slip em algodão macio, cós elástico confortável para uso diário.",
-  "preco": 29.9,
-  "imagem": null,
-  "categoria": "Cueca",
+  "descricao": "Calcinha tanga Plus Size pala alta toda dupla ",
+  "preco": 40,
+  "imagem": "/images/1001973712.webp",
+  "categoria": "Calcinha",
   "cores": [
-    "preto",
-    "branco",
-    "cinza"
+    "verde-agua",
+    "rosa-claro"
   ],
-  "nome": "Cueca Slip Básica",
+  "disponivel": true,
+  "nome": "Calcinha tanga Plus Size ",
   "tamanhos": [
-    "P",
-    "M",
-    "G",
-    "GG"
+    "48"
   ]
 }
