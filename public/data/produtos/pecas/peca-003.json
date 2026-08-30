@@ -1,20 +1,20 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Boxer em algodão com elastano, cós reforçado e costura reforçada para durabilidade.",
-  "preco": 49.9,
-  "imagem": null,
-  "categoria": "Cueca",
+  "descricao": "Calcinha tanga laterais em renda ",
+  "preco": 30,
+  "imagem": "/images/1001973717.jpg",
+  "categoria": "Calcinha",
   "cores": [
     "preto",
-    "branco",
-    "azul-royal"
+    "vermelho",
+    "marrom"
   ],
-  "nome": "Cueca Boxer Premium",
+  "disponivel": true,
+  "nome": "Calcinha tanga laterais em renda ",
   "tamanhos": [
     "P",
     "M",
-    "G",
     "GG"
   ]
 }
