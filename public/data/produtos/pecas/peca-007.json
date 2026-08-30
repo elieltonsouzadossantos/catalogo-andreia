@@ -1,17 +1,15 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Meia cano alto em algodão macio, ideal para o dia a dia.",
-  "preco": 24.9,
-  "imagem": null,
+  "descricao": "Meia cano médio casual calçado número do 38 a 43",
+  "preco": 18,
+  "imagem": "/images/1001973887.jpg",
   "categoria": "Meia",
   "cores": [
     "branco",
-    "rosa-pink",
-    "preto"
+    "cinza"
   ],
-  "nome": "Meia Cano Alto Cotton",
-  "tamanhos": [
-    "Único"
-  ]
+  "disponivel": true,
+  "nome": "Meia casual cano médio ",
+  "tamanhos": null
 }
