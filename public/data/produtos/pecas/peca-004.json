@@ -1,18 +1,16 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Robe longo em fleece soft, quentinho e confortável para o inverno.",
-  "preco": 149.9,
-  "imagem": null,
-  "categoria": "Pijama",
+  "descricao": "Calcinha tanga Plus Size laterais larga ",
+  "preco": 40,
+  "imagem": "/images/1001973713.jpg",
+  "categoria": "Calcinha",
   "cores": [
-    "marrom",
     "preto"
   ],
-  "nome": "Robe Longo Soft",
+  "disponivel": true,
+  "nome": "Calcinha tanga Plus Size",
   "tamanhos": [
-    "P",
-    "M",
-    "G"
+    "50"
   ]
 }
