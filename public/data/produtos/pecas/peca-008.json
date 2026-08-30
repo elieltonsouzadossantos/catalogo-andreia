@@ -1,17 +1,14 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Meia soquete com barrado em renda, delicada e confortável.",
-  "preco": 19.9,
-  "imagem": null,
+  "descricao": "Meia Sportiva calçado 38 a 43 ",
+  "preco": 20,
+  "imagem": "/images/1001973888.jpg",
   "categoria": "Meia",
   "cores": [
-    "branco",
-    "nude",
-    "preto"
+    "azul-marinho"
   ],
-  "nome": "Meia Soquete Renda",
-  "tamanhos": [
-    "Único"
-  ]
+  "disponivel": true,
+  "nome": "Meia Sportiva ",
+  "tamanhos": null
 }
