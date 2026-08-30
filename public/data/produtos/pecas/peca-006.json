@@ -1,20 +1,21 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Boxer em cotton respirável, ideal para o dia a dia com toque leve.",
-  "preco": 39.9,
-  "imagem": null,
-  "categoria": "Cueca",
+  "descricao": "Calcinha tanga em algodão ",
+  "preco": 25,
+  "imagem": "/images/1001973715.webp",
+  "categoria": "Calcinha",
   "cores": [
-    "cinza",
-    "azul-royal",
-    "preto"
+    "vermelho",
+    "nude",
+    "rosa-chiclete",
+    "rosa-queimado"
   ],
-  "nome": "Cueca Boxer Cotton Day",
+  "disponivel": true,
+  "nome": "Calcinha tanga em algodão ",
   "tamanhos": [
     "P",
     "M",
-    "G",
     "GG"
   ]
 }
