@@ -1,15 +1,16 @@
 {
   "destaque": false,
-  "com_modelo": true,
-  "descricao": "Conjunto com detalhe no sutiã e calcinha em renda que proporciona ainda mais delicadeza a pça ",
-  "preco": 130,
-  "imagem": "/images/foto-2026-08-22-13.53.04.jpeg",
+  "com_modelo": false,
+  "descricao": "Conjunto em renda com detalhes em tule calcinha fio em renda ",
+  "preco": 135,
+  "imagem": "/images/1001976167.jpg",
   "categoria": "Conjunto",
   "cores": [
-    "lilas"
+    "vermelho"
   ],
-  "nome": "Conjunto com bojo calcinha fio duplo",
+  "disponivel": true,
+  "nome": "Conjunto em renda detalhes em tule ",
   "tamanhos": [
-    "M"
+    "P"
   ]
 }
