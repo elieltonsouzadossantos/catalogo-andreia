@@ -207,6 +207,9 @@ async function carregarDados(){
       sizes: p.tamanhos || [],
       desc: p.descricao,
       img: p.imagem,
+      // Estação (Verão/Inverno): só é preenchida pela Andreia quando a categoria é
+      // "Pijama" — para as demais categorias, fica ausente (undefined) e não afeta nada.
+      season: p.estacao || undefined,
       // Foto com modelo? Controla o agrupamento na grade abaixo — não depende
       // da posição do produto dentro do produtos.json.
       comModelo: !!p.com_modelo,
