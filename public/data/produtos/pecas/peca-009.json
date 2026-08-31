@@ -1,17 +1,16 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Meia esportiva em algodão com reforço no calcanhar e biqueira.",
-  "preco": 22.9,
-  "imagem": null,
-  "categoria": "Meia",
+  "descricao": "Conjunto em lesie e calcinha toda em lesie cor bronze ",
+  "preco": 175,
+  "imagem": "/images/1001976157.jpg",
+  "categoria": "Conjunto",
   "cores": [
-    "preto",
-    "branco",
-    "cinza"
+    "marrom"
   ],
-  "nome": "Meia Cano Médio Esportiva",
+  "disponivel": true,
+  "nome": "Conjunto em lesie bronze",
   "tamanhos": [
-    "Único"
+    "G"
   ]
 }
