@@ -1,17 +1,16 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Conjunto cropped renda bordada bicolor ",
-  "preco": 145,
-  "imagem": "/images/foto-2026-08-22-13.44.08.jpeg",
+  "descricao": "Conjunto em lesie que te proporciona aquele conforto diário",
+  "preco": 175,
+  "imagem": "/images/1001976166.jpg",
   "categoria": "Conjunto",
   "cores": [
-    "preto"
+    "azul-marinho"
   ],
   "disponivel": true,
-  "nome": "Conjunto cropped Renda Bordada Bicolor ",
+  "nome": "Conjunto em lesie ",
   "tamanhos": [
-    "P",
-    "GG"
+    "G"
   ]
 }
