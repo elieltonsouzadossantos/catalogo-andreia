@@ -53,6 +53,7 @@ collections:
         widget: "select"
         options: ["Conjunto", "Sutiã", "Calcinha", "Pijama", "Cueca", "Meia", "Camisola"]
         required: true
+      - { label: "Estação (só para Pijama)", name: "estacao", widget: "select", options: ["Verão", "Inverno"], required: false, hint: "Só preencha se a categoria for Pijama — controla o sub-filtro Verão/Inverno no site. Deixe em branco para as outras categorias." }
       - label: "Cores disponíveis"
         name: "cores"
         widget: "select"
