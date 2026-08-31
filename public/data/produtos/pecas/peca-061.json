@@ -1,11 +1,24 @@
 {
-  "destaque": false,
-  "com_modelo": false,
-  "descricao": "Descrição a definir",
-  "preco": 0,
-  "imagem": "/images/foto-2026-08-22-13.38.39_1.jpeg",
+  "destaque": true,
+  "com_modelo": true,
+  "descricao": "Conjunto sex em opções de cores branco e vermelho ",
+  "preco": 130,
+  "imagem": "/images/1001979588.jpg",
   "categoria": "Conjunto",
-  "cores": [],
-  "nome": "Peça 33 (editar)",
-  "tamanhos": []
+  "cores": [
+    "branco",
+    "vermelho"
+  ],
+  "disponivel": true,
+  "nome": "Conjunto sex branco e vermelho ",
+  "imagens_por_cor": [
+    {
+      "cor": "branco",
+      "imagem": "/images/1001979587.jpg"
+    }
+  ],
+  "tamanhos": [
+    "M",
+    "G"
+  ]
 }
