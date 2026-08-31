@@ -6,11 +6,17 @@
   "imagem": "/images/1001976161.jpg",
   "categoria": "Conjunto",
   "cores": [
-    "roxo"
+    "roxo",
+    "branco"
   ],
   "disponivel": true,
   "nome": "Conjunto em lesie ",
-  "imagens_por_cor": [],
+  "imagens_por_cor": [
+    {
+      "cor": "branco",
+      "imagem": "/images/1001976170.jpg"
+    }
+  ],
   "tamanhos": [
     "G"
   ]
