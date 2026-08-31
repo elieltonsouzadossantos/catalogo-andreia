@@ -1,14 +1,15 @@
 {
   "destaque": false,
-  "com_modelo": true,
-  "descricao": "Conjunto com detalhes no sutiã e calcinha em renda trazendo ainda mais delicadeza ",
-  "preco": 130,
-  "imagem": "/images/foto-2026-08-22-13.53.03_3.jpeg",
+  "com_modelo": false,
+  "descricao": "Conjunto em lesie todo delicado ",
+  "preco": 175,
+  "imagem": "/images/1001976165.jpg",
   "categoria": "Conjunto",
   "cores": [
-    "lilas"
+    "verde-agua"
   ],
-  "nome": "Conjunto com calcinha fio duplo ",
+  "disponivel": true,
+  "nome": "Conjunto em lesie ",
   "tamanhos": [
     "M"
   ]
