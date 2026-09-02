@@ -1,11 +1,19 @@
 {
   "destaque": false,
   "com_modelo": true,
-  "descricao": "Descrição a definir",
-  "preco": 0,
-  "imagem": "/images/foto-2026-08-22-13.48.50.jpeg",
-  "categoria": "Conjunto",
-  "cores": [],
-  "nome": "Peça 54 — com modelo (editar)",
-  "tamanhos": []
+  "descricao": "Pijama cropped vermelho ",
+  "preco": 95,
+  "imagem": "/images/1001993032.jpg",
+  "categoria": "Pijama",
+  "cores": [
+    "vermelho"
+  ],
+  "disponivel": true,
+  "estacao": "Verão",
+  "nome": "Pijama cropped (vermelho)",
+  "tamanhos": [
+    "P",
+    "M",
+    "G"
+  ]
 }
