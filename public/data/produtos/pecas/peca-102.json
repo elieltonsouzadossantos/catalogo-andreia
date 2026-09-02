@@ -1,12 +1,17 @@
 {
   "destaque": false,
   "com_modelo": true,
-  "descricao": "Descrição a definir",
-  "preco": 0,
-  "imagem": "/images/foto-2026-08-22-13.53.02_2.jpeg",
-  "categoria": "Conjunto",
-  "cores": [],
-  "disponivel": false,
-  "nome": "Peça 74 — com modelo (editar)",
-  "tamanhos": []
+  "descricao": "Pijama canelado longo com punhos na blusa e na calça estampa poá ",
+  "preco": 150,
+  "imagem": "/images/1001993039.jpg",
+  "categoria": "Pijama",
+  "cores": [
+    "vermelho"
+  ],
+  "disponivel": true,
+  "estacao": "Inverno",
+  "nome": "Pijama canelado inverno (vermelho)",
+  "tamanhos": [
+    "G"
+  ]
 }
