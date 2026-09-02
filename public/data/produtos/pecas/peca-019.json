@@ -1,16 +1,17 @@
 {
-  "destaque": true,
+  "destaque": false,
   "com_modelo": false,
-  "descricao": "Sutiã top liso em microfibra na cor marron com bojo todo estruturado na peça sem aro ",
-  "preco": 99,
-  "imagem": "/images/conjunto-liso-terracota.jpg",
-  "categoria": "Sutiã",
+  "descricao": "Pijama fluity nuvem ",
+  "preco": 140,
+  "imagem": "/images/1001993040.jpg",
+  "categoria": "Pijama",
   "cores": [
-    "marrom"
+    "azul-bebe"
   ],
   "disponivel": true,
-  "nome": "Sutiã top",
+  "estacao": "Verão",
+  "nome": "Pijama fluity (nuvem)",
   "tamanhos": [
-    "P"
+    "G"
   ]
 }
