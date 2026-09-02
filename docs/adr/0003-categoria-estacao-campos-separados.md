@@ -54,3 +54,30 @@ filtros "fantasma" apontando para grades vazias.
 Esse mesmo princípio deve ser considerado ao adicionar outros atributos derivados
 no futuro (ex: lista de cores ou tamanhos disponíveis), mantendo sempre os produtos
 como a fonte única de verdade do sistema.
+
+## Adendo (2026-08-31): campo `estacao` exposto no painel admin
+A decisão original (2026-08-06) já previa o campo `season` e a lógica de sub-filtro
+Verão/Inverno — e, de fato, essa lógica sempre existiu em `public/js/script.js`
+(`FACETS`, `renderFacetFilter()`, `renderGrid()`), desde a implementação inicial do
+filtro facetado. O que faltava era a outra ponta: o campo correspondente nunca havia
+sido adicionado ao formulário do painel administrativo (`public/admin/config.yml`),
+então a Andreia não tinha como preencher `season` em nenhum produto. Na prática, o
+sub-filtro existia na interface mas era inatingível — sempre exibia a grade vazia,
+pois nenhum produto tinha o dado.
+
+Essa lacuna foi identificada em 31/08/2026 a partir de um teste real no catálogo
+publicado (clicar nos filtros Verão/Inverno e observar que todas as peças
+desapareciam), confirmando o que a documentação técnica já apontava. A correção
+consistiu em duas alterações mínimas, sem mudar a decisão de design original:
+
+1. **`public/admin/config.yml`** — adição do campo `estacao` (widget `select`,
+   opções "Verão"/"Inverno", opcional, com texto de ajuda explicando que só se
+   aplica à categoria Pijama).
+2. **`public/js/script.js`** — no mapeamento de `carregarDados()`, adição de
+   `season: p.estacao || undefined`, conectando o novo campo do painel ao nome
+   interno (`season`) já esperado pela lógica de filtro existente.
+
+Nenhum novo ADR foi necessário: trata-se da conclusão de uma decisão já aceita,
+não de uma nova decisão de arquitetura. Este adendo documenta apenas que a
+implementação foi fechada nessa data. Ver `docs/documentacao-tecnica.md` (seção
+05, tabela de campos do painel) para o registro operacional do campo.
