@@ -1,19 +1,17 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Sutiã avulso tomara que caia super estruturado com laterais duplas com elástico embutido ideal para quem procura uma peça confortável e prática.",
-  "preco": 95,
-  "imagem": "/images/foto-2026-08-22-13.38.35.jpeg",
-  "categoria": "Sutiã",
+  "descricao": "Pijama canelado toque macio",
+  "preco": 140,
+  "imagem": "/images/1001993033.webp",
+  "categoria": "Pijama",
   "cores": [
-    "nude"
+    "vermelho"
   ],
   "disponivel": true,
-  "nome": "Sutiã avulso tomara que caia ",
+  "estacao": "Verão",
+  "nome": "Pijama canelado (vermelho)",
   "tamanhos": [
-    "P",
-    "M",
-    "G",
-    "GG"
+    "G"
   ]
 }
