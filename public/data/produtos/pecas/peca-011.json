@@ -1,19 +1,17 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Cetim fluido com toque sedoso e alças finas ajustáveis, elegante para o dia a dia.",
-  "preco": 119.9,
-  "imagem": null,
+  "descricao": "Camisola com detalhes em renda bicolor ",
+  "preco": 150,
+  "imagem": "/images/1002044353.jpg",
   "categoria": "Camisola",
   "cores": [
-    "dourado",
-    "preto",
-    "branco"
+    "preto"
   ],
-  "nome": "Camisola Cetim Aurora",
+  "disponivel": true,
+  "estacao": "Verão",
+  "nome": "Camisola renda bicolor preta",
   "tamanhos": [
-    "P",
-    "M",
-    "G"
+    "GG"
   ]
 }
