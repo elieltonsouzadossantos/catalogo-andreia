@@ -1,20 +1,17 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Camisola em viscose com decote em renda, caimento solto e confortável.",
-  "preco": 129.9,
-  "imagem": null,
-  "categoria": "Camisola",
+  "descricao": "Pijama com detalhes em renda bicolor na cor azul ",
+  "preco": 145,
+  "imagem": "/images/1002044351.jpg",
+  "categoria": "Pijama",
   "cores": [
-    "preto",
-    "vinho",
-    "nude"
+    "azul-marinho"
   ],
-  "nome": "Camisola Renda Charme",
+  "disponivel": true,
+  "estacao": "Verão",
+  "nome": "Pijama azul ",
   "tamanhos": [
-    "P",
-    "M",
-    "G",
     "GG"
   ]
 }
