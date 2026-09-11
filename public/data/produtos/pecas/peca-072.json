@@ -1,16 +1,15 @@
 {
   "destaque": true,
   "com_modelo": false,
-  "descricao": "Conjunto sex disponível em 2 cores, acompanha luva, fio, sutiã, luva, per sex e saia ",
+  "descricao": "Conjunto sex disponível, acompanha luva, fio, sutiã, luva, per sex e saia ",
   "preco": 170,
-  "imagem": "/images/foto-2026-08-22-13.44.04.jpeg",
+  "imagem": "/images/1002043884.jpg",
   "categoria": "Conjunto",
   "cores": [
-    "preto-intenso",
     "vermelho"
   ],
   "disponivel": true,
-  "nome": "Conjunto sex ",
+  "nome": "Conjunto sex sainha ",
   "tamanhos": [
     "M",
     "G"
