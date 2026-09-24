@@ -1,19 +1,17 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Conjunto curto em viscose leve com detalhes em renda, ideal para dias quentes.",
-  "preco": 89.9,
-  "imagem": null,
+  "descricao": "Pijama com detalhes em renda bicolor na cor azul ",
+  "preco": 145,
+  "imagem": "/images/1002044351.jpg",
   "categoria": "Pijama",
   "cores": [
-    "nude",
-    "branco"
+    "azul-marinho"
   ],
-  "nome": "Pijama Curto Alças Renda",
+  "disponivel": true,
+  "estacao": "Verão",
+  "nome": "Pijama renda bicolor (azul)",
   "tamanhos": [
-    "P",
-    "M",
-    "G",
     "GG"
   ]
 }
