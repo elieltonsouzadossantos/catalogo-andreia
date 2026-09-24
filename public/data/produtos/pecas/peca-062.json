@@ -1,16 +1,22 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Sutiã sem bojo e sem aro",
-  "preco": 55,
-  "imagem": "/images/foto-2026-08-22-13.38.39_2.jpeg",
-  "categoria": "Sutiã",
+  "descricao": "Cueca box infantil e juvenil ",
+  "preco": 25,
+  "imagem": "/images/1002128794.jpg",
+  "categoria": "Cueca",
   "cores": [
-    "nude"
+    "preto",
+    "azul-marinho",
+    "vermelho",
+    "cinza"
   ],
   "disponivel": true,
-  "nome": "Sutiã ",
+  "nome": "Cueca box infantil e juvenil",
   "tamanhos": [
+    "P",
+    "M",
+    "G",
     "GG"
   ]
 }
