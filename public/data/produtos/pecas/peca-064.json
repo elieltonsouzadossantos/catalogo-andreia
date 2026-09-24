@@ -1,11 +1,26 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Descrição a definir",
-  "preco": 0,
+  "descricao": "Sutiã avulso reforçado com laterais largas e alta sustentação ",
+  "preco": 85,
   "imagem": "/images/foto-2026-08-22-13.38.42.jpeg",
-  "categoria": "Conjunto",
-  "cores": [],
-  "nome": "Peça 36 (editar)",
-  "tamanhos": []
+  "categoria": "Sutiã",
+  "cores": [
+    "preto-intenso",
+    "nude",
+    "rosa-claro",
+    "vermelho"
+  ],
+  "disponivel": true,
+  "nome": "Sutiã avulso",
+  "tamanhos": [
+    "P",
+    "M",
+    "G",
+    "GG",
+    "48",
+    "50",
+    "52",
+    "54"
+  ]
 }
