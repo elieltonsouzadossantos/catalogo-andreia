@@ -1,16 +1,20 @@
 {
   "destaque": true,
   "com_modelo": true,
-  "descricao": "Conjunto cinta liga acompanha meia calça, fio, sutiã, cinta liga e luvas ",
-  "preco": 170,
-  "imagem": "/images/foto-2026-08-22-13.48.49.jpeg",
-  "categoria": "Conjunto",
+  "descricao": "Cueca slim",
+  "preco": 35,
+  "imagem": "/images/1002128805.jpg",
+  "categoria": "Cueca",
   "cores": [
-    "preto-intenso"
+    "preto-intenso",
+    "azul-marinho",
+    "cinza-claro",
+    "vermelho"
   ],
   "disponivel": true,
-  "nome": "Conjunto cinta liga ",
+  "nome": "Cueca slim",
   "tamanhos": [
-    "M"
+    "M",
+    "G"
   ]
 }
