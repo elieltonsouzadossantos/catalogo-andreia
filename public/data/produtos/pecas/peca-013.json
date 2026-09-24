@@ -1,17 +1,17 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Pijama com detalhes em renda bicolor na cor azul ",
-  "preco": 145,
-  "imagem": "/images/1002044351.jpg",
+  "descricao": "Pijama azul  100%algodao",
+  "preco": 95,
+  "imagem": "/images/1002128695.png",
   "categoria": "Pijama",
   "cores": [
-    "azul-marinho"
+    "azul-royal"
   ],
   "disponivel": true,
   "estacao": "Verão",
   "nome": "Pijama azul ",
   "tamanhos": [
-    "GG"
+    "P"
   ]
 }
