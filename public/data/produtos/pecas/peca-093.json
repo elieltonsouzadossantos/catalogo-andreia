@@ -1,16 +1,21 @@
 {
   "destaque": false,
   "com_modelo": true,
-  "descricao": "Conjunto cropped todo trabalhado em renda francesa ",
-  "preco": 135,
-  "imagem": "/images/foto-2026-08-22-13.52.59_2.jpeg",
-  "categoria": "Conjunto",
+  "descricao": "Calcinha fio duplo ",
+  "preco": 28,
+  "imagem": "/images/1002129437.jpg",
+  "categoria": "Calcinha",
   "cores": [
-    "rosa-chiclete"
+    "preto",
+    "vermelho",
+    "nude",
+    "lilas"
   ],
   "disponivel": true,
-  "nome": "Conjunto cropped ",
+  "nome": "Calcinha fio duplo",
   "tamanhos": [
-    "P"
+    "M",
+    "G",
+    "GG"
   ]
 }
