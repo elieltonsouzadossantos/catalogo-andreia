@@ -1,17 +1,19 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Meia social de fio fino, toque macio e caimento discreto para o dia a dia.",
-  "preco": 29.9,
-  "imagem": null,
-  "categoria": "Meia",
+  "descricao": "Cueca slim infantil algodão ",
+  "preco": 18,
+  "imagem": "/images/1002128821.jpg",
+  "categoria": "Cueca",
   "cores": [
     "preto",
-    "azul-royal",
-    "cinza"
+    "azul-bebe",
+    "cinza",
+    "cinza-claro"
   ],
-  "nome": "Meia Social Fio Egípcio",
+  "disponivel": true,
+  "nome": "Cueca slim infantil",
   "tamanhos": [
-    "Único"
+    "M"
   ]
 }
