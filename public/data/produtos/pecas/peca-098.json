@@ -1,16 +1,19 @@
 {
   "destaque": false,
-  "com_modelo": true,
-  "descricao": "Conjunto em lesie calcinha fio regulagem ",
-  "preco": 135,
-  "imagem": "/images/foto-2026-08-22-13.53.01.jpeg",
-  "categoria": "Conjunto",
+  "com_modelo": false,
+  "descricao": "Calcinha fio duplo laterais em renda ",
+  "preco": 30,
+  "imagem": "/images/1002129435.webp",
+  "categoria": "Calcinha",
   "cores": [
-    "vermelho"
+    "vermelho",
+    "preto",
+    "azul-serenity"
   ],
   "disponivel": true,
-  "nome": "Conjunto ",
+  "nome": "Calcinha fio duplo detalhes em renda lateral",
   "tamanhos": [
-    "M"
+    "P",
+    "G"
   ]
 }
