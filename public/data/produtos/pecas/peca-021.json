@@ -1,18 +1,17 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Camisola em cetim fluido, toque fresco e caimento solto.",
-  "preco": 99.9,
-  "imagem": null,
-  "categoria": "Pijama",
+  "descricao": "Camisola kit completo com detalhes em renda bicolor, acompanha roby, camisola e calcinha",
+  "preco": 250,
+  "imagem": "/images/1002184099.jpg",
+  "categoria": "Camisola",
   "cores": [
-    "dourado",
-    "preto"
+    "vermelho"
   ],
-  "nome": "Camisola Cetim Leve",
+  "disponivel": true,
+  "estacao": "Verão",
+  "nome": "Camisola kit completo (vermelho)",
   "tamanhos": [
-    "P",
-    "M",
-    "G"
+    "GG"
   ]
 }
