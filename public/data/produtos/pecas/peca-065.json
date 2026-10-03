@@ -1,16 +1,16 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Pijama algodão lua ",
-  "preco": 95,
-  "imagem": "/images/foto-2026-08-22-13.41.45.jpeg",
+  "descricao": "Pijama em Suede preto",
+  "preco": 140,
+  "imagem": "/images/1002184090.jpg",
   "categoria": "Pijama",
   "cores": [
-    "creme"
+    "preto-intenso"
   ],
   "disponivel": true,
   "estacao": "Verão",
-  "nome": "Pijama algodão lua ",
+  "nome": "Pijama Suede (preto)",
   "tamanhos": [
     "M"
   ]
