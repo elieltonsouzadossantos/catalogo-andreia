@@ -1,16 +1,16 @@
 {
-  "destaque": false,
-  "com_modelo": false,
-  "descricao": "Conjunto em lesie e calcinha toda em lesie cor bronze ",
-  "preco": 175,
-  "imagem": "/images/1001976157.jpg",
+  "destaque": true,
+  "com_modelo": true,
+  "descricao": "Espartilho em renda com meia em tule e calcinha fio",
+  "preco": 190,
+  "imagem": "/images/1002214266.jpg",
   "categoria": "Conjunto",
   "cores": [
-    "marrom"
+    "preto-intenso"
   ],
   "disponivel": true,
-  "nome": "Conjunto em lesie bronze",
+  "nome": "Espartilho em renda com meia em tule e calcinha fio (prestou)",
   "tamanhos": [
-    "G"
+    "M"
   ]
 }
