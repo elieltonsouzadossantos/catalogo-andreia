@@ -1,15 +1,15 @@
 {
   "destaque": false,
-  "com_modelo": false,
-  "descricao": "Conjunto em lesie que te proporciona aquele conforto diário",
-  "preco": 175,
-  "imagem": "/images/1001976166.jpg",
+  "com_modelo": true,
+  "descricao": "Conjunto em renda com cinta liga e calcinha fio ",
+  "preco": 160,
+  "imagem": "/images/1002214265.jpg",
   "categoria": "Conjunto",
   "cores": [
-    "azul-marinho"
+    "vermelho"
   ],
   "disponivel": true,
-  "nome": "Conjunto em lesie ",
+  "nome": "Conjunto em renda com cinta liga e calcinha fio (vermelho)",
   "tamanhos": [
     "G"
   ]
