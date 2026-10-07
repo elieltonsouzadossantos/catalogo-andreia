@@ -1,24 +1,17 @@
 {
-  "destaque": false,
-  "com_modelo": false,
-  "descricao": "Conjunto em lesie e calcinha toda em lesie ",
-  "preco": 175,
-  "imagem": "/images/1001976161.jpg",
+  "destaque": true,
+  "com_modelo": true,
+  "descricao": "Body sensual em renda com alças reguláveis ",
+  "preco": 85,
+  "imagem": "/images/1002214269.jpg",
   "categoria": "Conjunto",
   "cores": [
-    "roxo",
     "branco"
   ],
   "disponivel": true,
-  "nome": "Conjunto em lesie ",
-  "imagens_por_cor": [
-    {
-      "cor": "branco",
-      "imagem": "/images/1001976170.jpg"
-    }
-  ],
+  "nome": "Body sensual em renda com alças reguláveis (branco)",
+  "imagens_por_cor": [],
   "tamanhos": [
-    "G",
-    "M"
+    "G"
   ]
 }
