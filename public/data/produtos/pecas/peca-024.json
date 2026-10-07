@@ -1,21 +1,20 @@
 {
   "destaque": true,
   "com_modelo": false,
-  "descricao": "Conjunto disponível em várias cores — conjunto todo estrutura sutiã com alta sustentação calcinha toda em lesie ",
+  "descricao": "Conjunto em lesie disponível no preto e marsala ",
   "preco": 175,
-  "imagem": "/images/foto-2026-08-22-13.44.05.jpeg",
+  "imagem": "",
   "categoria": "Conjunto",
   "cores": [
-    "vermelho",
-    "vinho",
-    "preto"
+    "marsala",
+    "preto-intenso"
   ],
   "disponivel": true,
-  "nome": "Conjunto lesie ",
+  "nome": "Conjunto em lesie (vinho e preto)",
   "imagens_por_cor": [
     {
-      "cor": "vermelho",
-      "imagem": "/images/foto-2026-08-22-13.44.05.jpeg"
+      "cor": "vinho",
+      "imagem": "/images/foto-2026-08-22-13.44.05_2.jpeg"
     },
     {
       "cor": "vinho",
