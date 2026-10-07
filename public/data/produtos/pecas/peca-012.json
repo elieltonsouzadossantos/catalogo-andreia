@@ -1,24 +1,17 @@
 {
-  "destaque": true,
-  "com_modelo": false,
-  "descricao": "Conjunto várias opções de cores, conjunto todo em renda o queridinho.",
-  "preco": 110,
-  "imagem": "",
+  "destaque": false,
+  "com_modelo": true,
+  "descricao": "Conjunto sexy em renda sem aro sem bojo com cinta liga e calcinha fio detalhes em tule ",
+  "preco": 150,
+  "imagem": "/images/1002214267.jpg",
   "categoria": "Conjunto",
   "cores": [
-    "rosa-bebe",
-    "azul-bebe",
     "preto-intenso"
   ],
   "disponivel": true,
-  "nome": "Conjunto Renda",
-  "imagens_por_cor": [
-    {
-      "imagem": "/images/1001974548.jpg",
-      "cor": "azul-bebe"
-    }
-  ],
+  "nome": "Conjunto sexy em renda sem bojo e sem aro com cinta liga e calcinha fio ( preto)",
+  "imagens_por_cor": [],
   "tamanhos": [
-    "G"
+    "M"
   ]
 }
