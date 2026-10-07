@@ -1,6 +1,6 @@
 {
   "destaque": false,
-  "com_modelo": false,
+  "com_modelo": true,
   "descricao": "Short modelador meia coxa",
   "preco": 45,
   "imagem": "/images/foto-2026-08-22-13.36.21_1.jpeg",
@@ -8,6 +8,7 @@
   "cores": [
     "nude"
   ],
+  "disponivel": true,
   "nome": "Short Modelador",
   "tamanhos": [
     "P",
