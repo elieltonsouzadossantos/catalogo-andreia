@@ -1,16 +1,15 @@
 {
   "destaque": false,
   "com_modelo": false,
-  "descricao": "Sutiã avulso reforçado com base de microfibra e elástico embutido ",
-  "preco": 85,
-  "imagem": "/images/roxo-claro-test1.jpeg",
+  "descricao": "Sutiã decote com alta sustentação fecho triplo",
+  "preco": 95,
+  "imagem": "/images/1002305064.jpg",
   "categoria": "Sutiã",
   "cores": [
-    "terracota",
-    "rosa-bebe",
-    "marsala"
+    "preto"
   ],
-  "nome": "Sutiã avulso",
+  "disponivel": true,
+  "nome": "Sutiã decote avulso ",
   "imagens_por_cor": [
     {
       "cor": "rosa-choque",
@@ -26,9 +25,6 @@
     }
   ],
   "tamanhos": [
-    "P",
-    "M",
-    "G",
-    "GG"
+    "G"
   ]
 }
