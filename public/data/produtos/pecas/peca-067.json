@@ -1,16 +1,16 @@
 {
   "destaque": false,
-  "com_modelo": false,
-  "descricao": "Pijama canelado super macio (rosa)",
-  "preco": 140,
-  "imagem": "/images/1002184093.jpg",
+  "com_modelo": true,
+  "descricao": "Pijama com bojo sem aro ",
+  "preco": 175,
+  "imagem": "/images/1002288652.jpg",
   "categoria": "Pijama",
   "cores": [
-    "rosa-queimado"
+    "vermelho"
   ],
   "disponivel": true,
   "estacao": "Verão",
-  "nome": "Pijama canelado (rosa)",
+  "nome": "Pijama vermelho ",
   "tamanhos": [
     "GG"
   ]
