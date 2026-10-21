@@ -1,14 +1,15 @@
 {
   "destaque": false,
-  "com_modelo": true,
-  "descricao": "Conjunto com detalhes em renda no sutiã e calcinha proporcionando uma elicadeza pra peça ",
-  "preco": 130,
-  "imagem": "/images/foto-2026-08-22-13.53.03_2.jpeg",
+  "com_modelo": false,
+  "descricao": "Conjunto lesie pink",
+  "preco": 175,
+  "imagem": "/images/1002304089.jpg",
   "categoria": "Conjunto",
   "cores": [
-    "lilas"
+    "rosa-pink"
   ],
-  "nome": "Conjunto ",
+  "disponivel": true,
+  "nome": "Conjunto lesie (pink)",
   "tamanhos": [
     "M"
   ]
