@@ -1,17 +1,17 @@
 {
   "destaque": false,
-  "com_modelo": false,
-  "descricao": "Camisola kit completo com detalhes em renda bicolor, acompanha roby, camisola e calcinha",
-  "preco": 250,
-  "imagem": "/images/1002184099.jpg",
-  "categoria": "Camisola",
+  "com_modelo": true,
+  "descricao": "Conjunto com detalhes em renda francesa ",
+  "preco": 165,
+  "imagem": "/images/1002288653.jpg",
+  "categoria": "Conjunto",
   "cores": [
     "vermelho"
   ],
   "disponivel": true,
-  "estacao": "Verão",
-  "nome": "Camisola kit completo (vermelho)",
+  "estacao": null,
+  "nome": "Conjunto detalhes de renda (vermelho)",
   "tamanhos": [
-    "GG"
+    "M"
   ]
 }
