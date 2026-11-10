@@ -1,16 +1,16 @@
 {
   "destaque": false,
-  "com_modelo": true,
-  "descricao": "Conjunto com alta sustentação laterais largas elástico embutido com bojo removível calcinha fio duplo ",
-  "preco": 140,
-  "imagem": "/images/foto-2026-08-22-13.49.33_2.jpeg",
+  "com_modelo": false,
+  "descricao": "Conjunto com alta sustentação laterais com detalhes em renda calcinha fio duplo",
+  "preco": 165,
+  "imagem": "/images/1002433124.jpg",
   "categoria": "Conjunto",
   "cores": [
-    "vermelho"
+    "azul-marinho"
   ],
   "disponivel": true,
-  "nome": "Conjunto (vermelho)",
+  "nome": "Conjunto (azul)",
   "tamanhos": [
-    "GG"
+    "M"
   ]
 }
