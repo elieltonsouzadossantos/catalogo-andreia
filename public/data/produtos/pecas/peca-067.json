@@ -1,17 +1,17 @@
 {
   "destaque": false,
   "com_modelo": true,
-  "descricao": "Pijama com bojo sem aro ",
+  "descricao": "Conjunto cropped em renda acompanha duas calcinhas uma fio regulável a outra calecon",
   "preco": 175,
-  "imagem": "/images/1002288652.jpg",
-  "categoria": "Pijama",
+  "imagem": "/images/1002433121.jpg",
+  "categoria": "Conjunto",
   "cores": [
-    "vermelho"
+    "azul-bebe"
   ],
   "disponivel": true,
-  "estacao": "Verão",
-  "nome": "Pijama vermelho ",
+  "estacao": null,
+  "nome": "Conjunto cropped em renda (azul)",
   "tamanhos": [
-    "GG"
+    "G"
   ]
 }
