@@ -7,8 +7,7 @@
   "categoria": "Conjunto",
   "cores": [
     "azul-bebe",
-    "rosa-bebe",
-    "preto-intenso"
+    "rosa-bebe"
   ],
   "disponivel": true,
   "nome": "Conjunto em renda ",
@@ -20,10 +19,6 @@
     {
       "imagem": "/images/1001974550.jpg",
       "cor": "rosa-bebe"
-    },
-    {
-      "cor": "preto-intenso",
-      "imagem": "/images/1001974549.jpg"
     }
   ],
   "tamanhos": [
