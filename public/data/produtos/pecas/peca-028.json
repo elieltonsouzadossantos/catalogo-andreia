@@ -1,17 +1,21 @@
 {
   "destaque": false,
-  "com_modelo": true,
-  "descricao": "Short modelador meia coxa",
-  "preco": 45,
-  "imagem": "/images/foto-2026-08-22-13.36.21_1.jpeg",
-  "categoria": "Calcinha",
+  "com_modelo": false,
+  "descricao": "Cueca box infantil tecido de algodão ",
+  "preco": 20,
+  "imagem": "/images/1002450313.jpg",
+  "categoria": "Cueca",
   "cores": [
-    "nude"
+    "cinza",
+    "preto-intenso",
+    "azul-marinho"
   ],
   "disponivel": true,
-  "nome": "Short Modelador",
+  "nome": "Cueca box infantil (algodão)",
   "tamanhos": [
+    "PP",
     "P",
+    "M",
     "G",
     "GG"
   ]
